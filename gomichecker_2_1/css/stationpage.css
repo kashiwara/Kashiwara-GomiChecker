@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+/**
+ * このファイルでは、収集拠点ページの色を設定しています。
+ *
+ * Index:
+ *  1. テゴリーボタン
+ *  2. 拠点リスト
+ */
+
+
+/**************************
+    1. カテゴリーボタン
+**************************/
+
+/* ボタンラベルの書式 */
+#station-category:before {
+    content: "収集品目";
+    display: block;
+    font-size: small;
+    padding: 1px 10px 1px 0;
+    text-shadow: none;
+    color: #fff;
+    text-align: center;
+    background-color: #381;
+}
+
+/* ボタンとテキストの書式 */
+#station-category .ui-btn {
+    color: #391;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
+    margin: 0 auto;
+    padding: 6px 30px 6px 10px;
+    background-color: #fff;
+    border-radius: 0;
+    box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, .2);
+}
+
+
+/**************************
+    2. 拠点リスト
+**************************/
+
+/* 項目の色 */
+#station-marker-list li a {
+    color: ;
+    background-color: ;
+    border-color: ;
+}

@@ -1,0 +1,22 @@
+[
+	{
+		"id" : "incapable" ,
+		"text" : "収集できません" ,
+		"shortText" : "収集不可"
+	},
+	{
+		"id" : "burn" ,
+		"text" : "可燃ごみ" ,
+		"shortText" : "可燃"
+	},
+	{
+		"id" : "nonburn" ,
+		"text" : "不燃ごみ" ,
+		"shortText" : "不燃"
+	},
+	{
+		"id" : "recycle" ,
+		"text" : "資源ごみ" ,
+		"shortText" : "資源"
+	}
+]

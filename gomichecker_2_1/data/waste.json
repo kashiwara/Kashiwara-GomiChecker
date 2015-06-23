@@ -1,0 +1,3584 @@
+[
+	{
+		"id" : 1 ,
+		"name" : "ICレコーダー" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : "個人情報は削除してください。" ,
+		"recycle" : "小型家電回収ボックスに入れて下さい（個人情報は削除してください）。" ,
+		"link" : "<a href=\"/docs/2014121100011/\">小型家電リサイクル</a>" ,
+		"keyword" : "ICレコーダー,あいしーれこーだー,ＩＣ,れこーだー,録音,ろくおん"
+	},
+	{
+		"id" : 2 ,
+		"name" : "アイスノン（保冷剤）" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "アイスノン（保冷剤）,あいすのん"
+	},
+	{
+		"id" : 3 ,
+		"name" : "アイロン" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "アイロン,あいろん"
+	},
+	{
+		"id" : 4 ,
+		"name" : "空き缶（飲料用）" ,
+		"sort" : "資源ごみ" ,
+		"comment" : "中身を空にし、水洗いしてください。<br>フタやラベルなど、プラスチックや紙の部分は「可燃ごみ」へ。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "空き缶（飲料用）,あきかん"
+	},
+	{
+		"id" : 5 ,
+		"name" : "空き缶（飲料用以外）" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : "中身を空にし、水洗いしてください。<br>フタやラベルなど、プラスチックや紙の部分は「可燃ごみ」へ。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "空き缶（飲料用以外）,あきかん,かんづめ,缶詰"
+	},
+	{
+		"id" : 6 ,
+		"name" : "空き瓶（飲料用・食用）" ,
+		"sort" : "資源ごみ" ,
+		"comment" : "中身を空にし、水洗いしてください。<br>フタやラベルなど、プラスチックや紙の部分は「可燃ごみ」へ。<br>酒びん、ビールびんはできるだけ販売店で引き取ってもらいましょう。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "空き瓶（飲料用・食用）,あきびん"
+	},
+	{
+		"id" : 7 ,
+		"name" : "空き瓶（飲料用・食用以外）" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : "中身を空にし、水洗いしてください。<br>フタやラベルなど、プラスチックや紙の部分は「可燃ごみ」へ。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "空き瓶（飲料用・食用以外）,あきびん"
+	},
+	{
+		"id" : 8 ,
+		"name" : "味付海苔容器（プラスチック製）" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "味付海苔容器（プラスチック製）,あじつけのりようき"
+	},
+	{
+		"id" : 9 ,
+		"name" : "アスファルト" ,
+		"sort" : "収集できません" ,
+		"comment" : "産業廃棄物です、大阪府の許可業者に処分を依頼してください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "アスファルト,あすふぁると"
+	},
+	{
+		"id" : 10 ,
+		"name" : "アスベスト（石綿）" ,
+		"sort" : "収集できません" ,
+		"comment" : "特別管理産業廃棄物です、府の許可業者に処分を依頼してください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "アスベスト（石綿）,あすべすと,いしわた,せきめん"
+	},
+	{
+		"id" : 11 ,
+		"name" : "雨カッパ、レインコート" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : "金属製の部品は取り外して「不燃ごみ」へ。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "雨カッパ、レインコート,あまかっぱ,あまがっぱ,れいんこーと"
+	},
+	{
+		"id" : 12 ,
+		"name" : "網（昆虫採集、魚釣り用）" ,
+		"sort" : "可燃ごみ,不燃ごみ" ,
+		"comment" : "柄が金属製のものは、網と枠を切り離し、網の部分は「可燃ごみ」、柄の部分は「不燃ごみ」へ。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "網（昆虫採集、魚釣り用）,あみ,たも"
+	},
+	{
+		"id" : 13 ,
+		"name" : "アルバム(写真)" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "アルバム(写真),あるばむ"
+	},
+	{
+		"id" : 14 ,
+		"name" : "アルミ箔（台所用）" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "アルミ箔（台所用）,あるみはく"
+	},
+	{
+		"id" : 15 ,
+		"name" : "あんか" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : "プラスチック製のものは「可燃ごみ」へ。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "あんか,あんか"
+	},
+	{
+		"id" : 16 ,
+		"name" : "アンテナ" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "アンテナ,あんてな"
+	},
+	{
+		"id" : 17 ,
+		"name" : "ETCユニット" ,
+		"sort" : "収集できません" ,
+		"comment" : "販売店等に相談するか、リサイクルに出してください。" ,
+		"recycle" : "小型家電回収ボックスに入れて下さい。" ,
+		"link" : "<a href=\"/docs/2014121100011/\">小型家電リサイクル</a>" ,
+		"keyword" : "ETCユニット,いーてぃーしー,ＥＴＣ,ゆにっと"
+	},
+	{
+		"id" : 18 ,
+		"name" : "衣装ケース（金属）" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : "複数出す場合や、他にも大型のごみや多量のごみを出す場合は有料になります。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "衣装ケース（金属）,いしょうけーす"
+	},
+	{
+		"id" : 19 ,
+		"name" : "衣装ケース（金属以外）" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : "複数出す場合や、他にも大型のごみや多量のごみを出す場合は有料になります。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "衣装ケース（金属以外）,いしょうけーす"
+	},
+	{
+		"id" : 20 ,
+		"name" : "いす（金属製）" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : "「不用品」と表示してください。<br>できるだけくずして出してください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "いす（金属製）,いす"
+	},
+	{
+		"id" : 21 ,
+		"name" : "いす（木製、プラスチック製）" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : "「不用品」と表示してください。<br>できるだけくずして出してください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "いす（木製、プラスチック製）,いす"
+	},
+	{
+		"id" : 22 ,
+		"name" : "一輪車" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : "「不用品」と表示してください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "一輪車,いちりんしゃ"
+	},
+	{
+		"id" : 23 ,
+		"name" : "一升瓶" ,
+		"sort" : "資源ごみ" ,
+		"comment" : "中身を空にし、水洗いしてください。<br>なるべく販売店に引き取ってもらいましょう。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "一升瓶,いっしょうびん"
+	},
+	{
+		"id" : 24 ,
+		"name" : "一斗缶（家庭用に限る）" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : "中身を空にし、水洗いしてください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "一斗缶（家庭用に限る）,いっとかん"
+	},
+	{
+		"id" : 25 ,
+		"name" : "動物の死骸（犬・猫・鳥等）" ,
+		"sort" : "収集できません" ,
+		"comment" : "飼い主不明の犬・猫の死骸については環境保全課にご連絡ください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "動物の死骸（犬・猫・鳥等）,いぬ,ねこ,とり,どうぶつ,しがい,死獣,しじゅう"
+	},
+	{
+		"id" : 26 ,
+		"name" : "イヤホン" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : "小型家電回収ボックスに入れて下さい。" ,
+		"link" : "<a href=\"/docs/2014121100011/\">小型家電リサイクル</a>" ,
+		"keyword" : "イヤホン,いやほん"
+	},
+	{
+		"id" : 27 ,
+		"name" : "医療用廃棄物" ,
+		"sort" : "収集できません" ,
+		"comment" : "医療機関に相談してください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "医療用廃棄物,いりょうようはいきぶつ"
+	},
+	{
+		"id" : 28 ,
+		"name" : "衣類" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : "自治会等で集団回収を行っている場合は、できるだけそちらを利用してください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "衣類,いるい"
+	},
+	{
+		"id" : 29 ,
+		"name" : "布類" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : "自治会等で集団回収を行っている場合は、できるだけそちらを利用してください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "布類,いるい,ふく"
+	},
+	{
+		"id" : 30 ,
+		"name" : "飲料用紙パック（ジュースなど）" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : "中身を空にし水洗いしてから、自治会などの集団回収に出すか、市内の公共施設に設置している紙パック回収BOXをご利用ください（できるだけ集団回収を優先してください）。" ,
+		"link" : "<a href=\"/docs/2014051500028/\">ペットボトル・紙パックのリサイクル</a>" ,
+		"keyword" : "飲料用紙パック（ジュースなど）,いんりょうようかみぱっく"
+	},
+	{
+		"id" : 31 ,
+		"name" : "植木鉢（プラスチック）" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : "土はすべて取り出してください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "植木鉢（プラスチック）,うえきばち,プランター,ぷらんたー"
+	},
+	{
+		"id" : 32 ,
+		"name" : "植木鉢（焼物）" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : "土はすべて取り出してください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "植木鉢（焼物）,うえきばち,プランター,ぷらんたー"
+	},
+	{
+		"id" : 33 ,
+		"name" : "浮き輪・浮き袋等" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "浮き輪・浮き袋等,うきわ,うきぶくろ"
+	},
+	{
+		"id" : 34 ,
+		"name" : "腕時計" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "腕時計,うでどけい"
+	},
+	{
+		"id" : 35 ,
+		"name" : "エアコン" ,
+		"sort" : "収集できません" ,
+		"comment" : "法律でリサイクルが義務付けられています。" ,
+		"recycle" : "ご自身でリサイクル券を購入して指定の引き取り場所に持ち込んでください。<br>新しい製品に買い替える場合は、その購入先の店舗で引き取ってもらえる場合もあります。" ,
+		"link" : "<a href=\"/docs/2014051500035/\">家電リサイクル</a>" ,
+		"keyword" : "エアコン,えあこん"
+	},
+	{
+		"id" : 36 ,
+		"name" : "ACアダプタ" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : "小型家電回収ボックスに入れて下さい。" ,
+		"link" : "<a href=\"/docs/2014121100011/\">小型家電リサイクル</a>" ,
+		"keyword" : "ACアダプタ,えーしーあだぷた,ＡＣ,あだぷた"
+	},
+	{
+		"id" : 37 ,
+		"name" : "SDカード" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : "個人情報は削除してください。" ,
+		"recycle" : "小型家電回収ボックスに入れて下さい（個人情報は削除してください）。" ,
+		"link" : "<a href=\"/docs/2014121100011/\">小型家電リサイクル</a>" ,
+		"keyword" : "SDカード,えすでぃーかーど,ＳＤ,めもりー"
+	},
+	{
+		"id" : 38 ,
+		"name" : "エレクトーン" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : "収集の作業員が二人で持ち運べる程度のものに限ります。<br>「不用品」と表示して出してください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "エレクトーン,えれくとーん"
+	},
+	{
+		"id" : 39 ,
+		"name" : "エンジンオイル" ,
+		"sort" : "収集できません" ,
+		"comment" : "販売店やガソリンスタンド等に相談してください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "エンジンオイル,えんじんおいる"
+	},
+	{
+		"id" : 40 ,
+		"name" : "延長コード" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "延長コード,えんちょうこーど"
+	},
+	{
+		"id" : 41 ,
+		"name" : "塩ビパイプ（家庭用に限る）" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : "多量に出る場合は環境保全課に相談してください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "塩ビパイプ（家庭用に限る）,えんびぱいぷ"
+	},
+	{
+		"id" : 42 ,
+		"name" : "応接セット" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : "収集作業員が二人で持ち運べるもので、1セットに限ります。<br>他にも大型のごみや、多量のごみを出す場合は有料になります、環境保全課までお問い合わせください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "応接セット,おうせつせっと"
+	},
+	{
+		"id" : 43 ,
+		"name" : "オートバイ" ,
+		"sort" : "収集できません" ,
+		"comment" : "販売店または専門業者に相談してください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "オートバイ,おーとばい"
+	},
+	{
+		"id" : 44 ,
+		"name" : "オーブントースター" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "オーブントースター,おーぶんとーすたー"
+	},
+	{
+		"id" : 45 ,
+		"name" : "オーブンレンジ" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "オーブンレンジ,おーぶんれんじ"
+	},
+	{
+		"id" : 46 ,
+		"name" : "斧" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : "刃の部分が露出しないようにし、「刃物」と表示してください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "斧,おの"
+	},
+	{
+		"id" : 47 ,
+		"name" : "おもちゃ類" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : "金属製の部品はできるだけ外して「不燃ごみ」へ。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "おもちゃ類,おもちゃるい"
+	},
+	{
+		"id" : 48 ,
+		"name" : "おもちゃ類（金属製）" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : "金属製以外の部品は「可燃ごみ」へ。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "おもちゃ類（金属製）,おもちゃるい"
+	},
+	{
+		"id" : 49 ,
+		"name" : "おもちゃ類（電動式）" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : "金属製以外の部品は「可燃ごみ」へ。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "おもちゃ類（電動式）,おもちゃるい　でんどうしきおもちゃ"
+	},
+	{
+		"id" : 50 ,
+		"name" : "オルガン" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : "収集の作業員が二人で持ち運べる程度のものに限ります。<br>「不用品」と表示して出してください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "オルガン,おるがん"
+	},
+	{
+		"id" : 51 ,
+		"name" : "カーCD、カーMD、カーDVD等" ,
+		"sort" : "収集できません" ,
+		"comment" : "販売店等に相談するか、リサイクルに出してください。" ,
+		"recycle" : "小型家電回収ボックスに入れて下さい。" ,
+		"link" : "<a href=\"/docs/2014121100011/\">小型家電リサイクル</a>" ,
+		"keyword" : "カーCD、カーMD、カーDVD等,かー,ＣＤ,ＭＤ,ＤＶＤ"
+	},
+	{
+		"id" : 52 ,
+		"name" : "カーステレオ、カーラジオ" ,
+		"sort" : "収集できません" ,
+		"comment" : "販売店等に相談するか、リサイクルに出してください。" ,
+		"recycle" : "小型家電回収ボックスに入れて下さい。" ,
+		"link" : "<a href=\"/docs/2014121100011/\">小型家電リサイクル</a>" ,
+		"keyword" : "カーステレオ、カーラジオ,かーすてれお"
+	},
+	{
+		"id" : 53 ,
+		"name" : "カーテン" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : "金属製のフックは「不燃ごみ」へ。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "カーテン,かーてん"
+	},
+	{
+		"id" : 54 ,
+		"name" : "カーナビ" ,
+		"sort" : "収集できません" ,
+		"comment" : "販売店等に相談するか、リサイクルに出してください。" ,
+		"recycle" : "小型家電回収ボックスに入れて下さい（個人情報は削除してください）。" ,
+		"link" : "<a href=\"/docs/2014121100011/\">小型家電リサイクル</a>" ,
+		"keyword" : "カーナビ,かーなび"
+	},
+	{
+		"id" : 55 ,
+		"name" : "カーペット" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : "丸めて縛ってください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "カーペット,かーぺっと"
+	},
+	{
+		"id" : 56 ,
+		"name" : "カーボン紙" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "カーボン紙,かーぼんし"
+	},
+	{
+		"id" : 57 ,
+		"name" : "貝殻類" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "貝殻類,かいがらるい"
+	},
+	{
+		"id" : 58 ,
+		"name" : "懐中電灯" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : "小型家電回収ボックスに入れて下さい。" ,
+		"link" : "<a href=\"/docs/2014121100011/\">小型家電リサイクル</a>" ,
+		"keyword" : "懐中電灯,かいちゅうでんとう"
+	},
+	{
+		"id" : 59 ,
+		"name" : "使い捨てカイロ" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "使い捨てカイロ,かいろ,つかいすてかいろ,ほっかいろ"
+	},
+	{
+		"id" : 60 ,
+		"name" : "化学薬品" ,
+		"sort" : "収集できません" ,
+		"comment" : "販売店または専門業者に相談してください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "化学薬品,かがくやくひん"
+	},
+	{
+		"id" : 61 ,
+		"name" : "鏡" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : "「割れ物」と表示し、割れて飛散しないようにしてください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "鏡,かがみ"
+	},
+	{
+		"id" : 62 ,
+		"name" : "傘" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "傘,かさ"
+	},
+	{
+		"id" : 63 ,
+		"name" : "菓子缶（金属製）" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : "容器の内側に菓子等が付着している場合は水洗いしてください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "菓子缶（金属製）,かしかん"
+	},
+	{
+		"id" : 64 ,
+		"name" : "加湿器" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "加湿器,かしつき"
+	},
+	{
+		"id" : 65 ,
+		"name" : "菓子袋（プラスチック製）" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "菓子袋（プラスチック製）,かしぶくろ"
+	},
+	{
+		"id" : 66 ,
+		"name" : "ガスコンロ" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "ガスコンロ,がすこんろ"
+	},
+	{
+		"id" : 67 ,
+		"name" : "ガスボンベ" ,
+		"sort" : "収集できません" ,
+		"comment" : "販売店または専門業者に相談してください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "ガスボンベ,がすぼんべ"
+	},
+	{
+		"id" : 68 ,
+		"name" : "ガスレンジ" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "ガスレンジ,がすれんじ"
+	},
+	{
+		"id" : 69 ,
+		"name" : "カセットガスボンベ" ,
+		"sort" : "資源ごみ" ,
+		"comment" : "必ず穴をあけて中身を完全に空にしてください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "カセットガスボンベ,かせっとがすぼんべ"
+	},
+	{
+		"id" : 70 ,
+		"name" : "カセットコンロ" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : "カセットガスボンベは取り外してください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "カセットコンロ,かせっとこんろ"
+	},
+	{
+		"id" : 71 ,
+		"name" : "カセットテープ" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "カセットテープ,かせっとてーぷ"
+	},
+	{
+		"id" : 72 ,
+		"name" : "カッター" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : "刃が露出しないようにし、「刃物」と表示してください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "カッター,かったー"
+	},
+	{
+		"id" : 73 ,
+		"name" : "カップ麺の容器等" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "カップ麺の容器等,かっぷめんのようきとう"
+	},
+	{
+		"id" : 74 ,
+		"name" : "花瓶" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : "「割れ物」と表示してください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "花瓶,かびん"
+	},
+	{
+		"id" : 75 ,
+		"name" : "鎌" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : "刃の部分が露出しないようにし、「刃物」と表示してください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "鎌,かま"
+	},
+	{
+		"id" : 76 ,
+		"name" : "紙おむつ" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : "汚物は取り除いてください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "紙おむつ,かみおむつ"
+	},
+	{
+		"id" : 77 ,
+		"name" : "紙コップ・紙さら" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "紙コップ・紙さら,かみこっぷ,かみさら"
+	},
+	{
+		"id" : 78 ,
+		"name" : "かみそり" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : "刃が露出しないようにし、「刃物」と表示してください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "かみそり,かみそり"
+	},
+	{
+		"id" : 79 ,
+		"name" : "紙箱" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : "自治会などの集団回収に出すか、市内の公共施設に設置している古紙回収BOXをご利用ください（できるだけ集団回収を優先してください）。" ,
+		"link" : "<a href=\"/docs/2014082000016/\">古紙リサイクル</a>" ,
+		"keyword" : "紙箱,かみばこ,はこ"
+	},
+	{
+		"id" : 80 ,
+		"name" : "紙袋" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : "自治会などの集団回収に出すか、市内の公共施設に設置している古紙回収BOXをご利用ください（できるだけ集団回収を優先してください）。" ,
+		"link" : "<a href=\"/docs/2014082000016/\">古紙リサイクル</a>" ,
+		"keyword" : "紙袋,かみぶくろ,ふくろ"
+	},
+	{
+		"id" : 81 ,
+		"name" : "ガムテープ" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "ガムテープ,がむてーぷ"
+	},
+	{
+		"id" : 82 ,
+		"name" : "デジタルカメラ・フィルムカメラ" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : "個人情報は削除してください。" ,
+		"recycle" : "小型家電回収ボックスに入れて下さい（個人情報は削除してください）。" ,
+		"link" : "<a href=\"/docs/2014121100011/\">小型家電リサイクル</a>" ,
+		"keyword" : "デジタルカメラ・フィルムカメラ,かめら,でじたる,ふぃるむ,しやしん"
+	},
+	{
+		"id" : 83 ,
+		"name" : "カラーボックス" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : "金属製の部品はできるだけ取り外して「不燃ごみ」へ。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "カラーボックス,からーぼっくす"
+	},
+	{
+		"id" : 84 ,
+		"name" : "ガラス" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : "割れて飛散しないようにしてください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "ガラス,がらす"
+	},
+	{
+		"id" : 85 ,
+		"name" : "皮製品" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : "金属製の部品はできるだけ取り外して「不燃ごみ」へ。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "皮製品,かわせいひん"
+	},
+	{
+		"id" : 86 ,
+		"name" : "瓦" ,
+		"sort" : "収集できません" ,
+		"comment" : "販売店または専門業者に相談してください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "瓦,かわら"
+	},
+	{
+		"id" : 87 ,
+		"name" : "換気扇" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "換気扇,かんきせん"
+	},
+	{
+		"id" : 88 ,
+		"name" : "乾燥機(衣類)" ,
+		"sort" : "収集できません" ,
+		"comment" : "法律でリサイクルが義務付けられています。" ,
+		"recycle" : "ご自身でリサイクル券を購入して指定の引き取り場所に持ち込んでください。<br>新しい製品に買い替える場合は、その購入先の店舗で引き取ってもらえる場合もあります。" ,
+		"link" : "<a href=\"/docs/2014051500035/\">家電リサイクル</a>" ,
+		"keyword" : "乾燥機(衣類),かんそうき"
+	},
+	{
+		"id" : 89 ,
+		"name" : "乾燥剤（食品用）" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "乾燥剤（食品用）,かんそうざい"
+	},
+	{
+		"id" : 90 ,
+		"name" : "乾電池" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "乾電池,かんでんち"
+	},
+	{
+		"id" : 91 ,
+		"name" : "感熱紙" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : "自治会などの集団回収に出すか、市内の公共施設に設置している古紙回収BOXをご利用ください（できるだけ集団回収を優先してください）。" ,
+		"link" : "<a href=\"/docs/2014082000016/\">古紙リサイクル</a>" ,
+		"keyword" : "感熱紙,かんねつし"
+	},
+	{
+		"id" : 92 ,
+		"name" : "牛乳パック" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : "中身を空にし水洗いしてから、自治会などの集団回収に出すか、市内の公共施設に設置している紙パック回収BOXをご利用ください（できるだけ集団回収を優先してください）。" ,
+		"link" : "<a href=\"/docs/2014051500028/\">ペットボトル・紙パックのリサイクル</a>" ,
+		"keyword" : "牛乳パック,ぎゅうにゅうぱっく,かみ"
+	},
+	{
+		"id" : 93 ,
+		"name" : "給油ポンプ（手動式）" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "給油ポンプ（手動式）,きゅうゆぽんぷ"
+	},
+	{
+		"id" : 94 ,
+		"name" : "給油ポンプ（電動式）" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "給油ポンプ（電動式）,きゅうゆぽんぷ"
+	},
+	{
+		"id" : 95 ,
+		"name" : "金魚ばち（ガラス）" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "金魚ばち（ガラス）,きんぎょばち"
+	},
+	{
+		"id" : 96 ,
+		"name" : "金魚ばち（プラスチック）" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "金魚ばち（プラスチック）,きんぎょばち"
+	},
+	{
+		"id" : 97 ,
+		"name" : "金庫" ,
+		"sort" : "収集できません" ,
+		"comment" : "販売店または専門業者に相談してください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "金庫,きんこ"
+	},
+	{
+		"id" : 98 ,
+		"name" : "空気入れ（自転車用等）" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "空気入れ（自転車用等）,くうきいれ"
+	},
+	{
+		"id" : 99 ,
+		"name" : "クーラーボックス" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : "電源式のものは家電リサイクル法の対象となる場合があります、判断が難しい場合は環境保全に相談してください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "クーラーボックス,くーらーぼっくす"
+	},
+	{
+		"id" : 100 ,
+		"name" : "くぎ" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : "刺さらないようテープ等でまとめてください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "くぎ,くぎ"
+	},
+	{
+		"id" : 101 ,
+		"name" : "くさ・雑草" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : "多量に出る場合は有料になります。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "くさ・雑草,くさ,ざっそう"
+	},
+	{
+		"id" : 102 ,
+		"name" : "草刈り機" ,
+		"sort" : "収集できません" ,
+		"comment" : "クリーンセンターへ直接搬入できるものもあります。環境保全課にご相談ください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "草刈り機,くさかりき"
+	},
+	{
+		"id" : 103 ,
+		"name" : "くすり瓶（家庭用の薬）" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : "中身を空にし、水洗いしてください。<br>余った錠剤等は「可燃ごみ」へ。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "くすり瓶（家庭用の薬）,くすりびん"
+	},
+	{
+		"id" : 104 ,
+		"name" : "くすり瓶（農薬、薬品）" ,
+		"sort" : "収集できません" ,
+		"comment" : "販売店または専門業者に相談してください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "くすり瓶（農薬、薬品）,くすりびん,のうやく,やくひん"
+	},
+	{
+		"id" : 105 ,
+		"name" : "くつ・ズック" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "くつ・ズック,くつ,ずっく,靴,シューズ,しゅーず"
+	},
+	{
+		"id" : 106 ,
+		"name" : "靴下" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "靴下,くつした"
+	},
+	{
+		"id" : 107 ,
+		"name" : "クッション" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "クッション,くっしょん"
+	},
+	{
+		"id" : 108 ,
+		"name" : "グラス" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : "「割れ物」と表示してください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "グラス,ぐらす"
+	},
+	{
+		"id" : 109 ,
+		"name" : "クリップ" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "クリップ,くりっぷ"
+	},
+	{
+		"id" : 110 ,
+		"name" : "車イス" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : "「不用品」と表示してください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "車イス,くるまいす"
+	},
+	{
+		"id" : 111 ,
+		"name" : "クレヨン等" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "クレヨン等,くれよん"
+	},
+	{
+		"id" : 112 ,
+		"name" : "グローブ（野球用等）" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "グローブ（野球用等）,ぐろーぶ"
+	},
+	{
+		"id" : 113 ,
+		"name" : "蛍光灯（管・球）" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : "「割れ物」と表示し、割れて飛散しないようにしてください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "蛍光灯（管・球）,けいこうとう,けいこうかん"
+	},
+	{
+		"id" : 114 ,
+		"name" : "計算機、電卓" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : "小型家電回収ボックスに入れて下さい。" ,
+		"link" : "<a href=\"/docs/2014121100011/\">小型家電リサイクル</a>" ,
+		"keyword" : "計算機、電卓,けいさんき,でんたく"
+	},
+	{
+		"id" : 115 ,
+		"name" : "携帯電話、スマートフォン" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : "個人情報は削除してください。" ,
+		"recycle" : "小型家電回収ボックスに入れて下さい（個人情報は削除してください）。" ,
+		"link" : "<a href=\"/docs/2014121100011/\">小型家電リサイクル</a>" ,
+		"keyword" : "携帯電話、スマートフォン,けいたいでんわ,すまーとふぉん,すまーとほん,スマートホン,スマホ,すまほ"
+	},
+	{
+		"id" : 116 ,
+		"name" : "ゲーム機（据置型、携帯型）" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : "個人情報は削除してください。" ,
+		"recycle" : "小型家電回収ボックスに入れて下さい（個人情報は削除してください）。" ,
+		"link" : "<a href=\"/docs/2014121100011/\">小型家電リサイクル</a>" ,
+		"keyword" : "ゲーム機（据置型、携帯型）,げーむき"
+	},
+	{
+		"id" : 117 ,
+		"name" : "化粧品びん" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "化粧品びん,けしょうひんびん"
+	},
+	{
+		"id" : 118 ,
+		"name" : "ケチャップの容器" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "ケチャップの容器,けちゃっぷのようき"
+	},
+	{
+		"id" : 119 ,
+		"name" : "血圧計（デジタル式以外）" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "血圧計（デジタル式以外）,けつあつけい"
+	},
+	{
+		"id" : 120 ,
+		"name" : "血圧計（デジタル式）" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : "小型家電回収ボックスに入れて下さい。" ,
+		"link" : "<a href=\"/docs/2014121100011/\">小型家電リサイクル</a>" ,
+		"keyword" : "血圧計（デジタル式）,けつあつけい,でじたる"
+	},
+	{
+		"id" : 121 ,
+		"name" : "工具（家庭用に限る）" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "工具（家庭用に限る）,こうぐ"
+	},
+	{
+		"id" : 122 ,
+		"name" : "香水の瓶" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "香水の瓶,こうすいのびん"
+	},
+	{
+		"id" : 123 ,
+		"name" : "ゴーグル（プラスチック製）" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : "金属部分の割合が大きい場合は「不燃ごみ」へ。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "ゴーグル（プラスチック製）,ごーぐる"
+	},
+	{
+		"id" : 124 ,
+		"name" : "コート" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "コート,こーと"
+	},
+	{
+		"id" : 125 ,
+		"name" : "コーヒーメーカー" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "コーヒーメーカー,こーひーめーかー"
+	},
+	{
+		"id" : 126 ,
+		"name" : "固形石鹸" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "固形石鹸,こけいせっけん"
+	},
+	{
+		"id" : 127 ,
+		"name" : "ござ" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : "丸めて縛ってください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "ござ,ござ"
+	},
+	{
+		"id" : 128 ,
+		"name" : "こたつ（ヒーター、電気コード）" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "こたつ（ヒーター、電気コード）,こたつ,ひーたー,こーど"
+	},
+	{
+		"id" : 129 ,
+		"name" : "こたつ（やぐら、天板）" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : "ヒーターと分離できない場合は「不燃ごみ」へ。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "こたつ（やぐら、天板）,こたつ,やぐら,てんばん"
+	},
+	{
+		"id" : 130 ,
+		"name" : "コップ（ガラス）" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : "「割れ物」と表示してください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "コップ（ガラス）,こっぷ"
+	},
+	{
+		"id" : 131 ,
+		"name" : "子ども服" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : "柏原市では、状態の良いものを回収しリユースフェアで配布しています。洗濯をしてから市内の公共施設に設置している回収ボックスへお持ちください（詳しくは柏原市リユースフェアのWebサイトをご覧ください）。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "子ども服,こどもふく,衣類,いるい,洋服,ようふく"
+	},
+	{
+		"id" : 132 ,
+		"name" : "ゴムマット" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "ゴムマット,ごむまっと"
+	},
+	{
+		"id" : 133 ,
+		"name" : "ゴルフバッグ・クラブ" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "ゴルフバッグ・クラブ,ごるふばっぐ,くらぶ"
+	},
+	{
+		"id" : 134 ,
+		"name" : "コンクリート・コンクリートブロック" ,
+		"sort" : "収集できません" ,
+		"comment" : "販売店または専門業者に相談してください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "コンクリート・コンクリートブロック,こんくりーと,ぶろっく"
+	},
+	{
+		"id" : 135 ,
+		"name" : "コンドーム" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "コンドーム,こんどーむ"
+	},
+	{
+		"id" : 136 ,
+		"name" : "座椅子" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : "全体が木材やプラスチックのみの場合は「可燃ごみ」へ。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "座椅子,ざいす"
+	},
+	{
+		"id" : 137 ,
+		"name" : "座椅子（木製）" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : "フレームやスプリングなど金属部品がある場合は「不燃ごみ」へ。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "座椅子（木製）,ざいす"
+	},
+	{
+		"id" : 138 ,
+		"name" : "サインペン" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "サインペン,さいんぺん"
+	},
+	{
+		"id" : 139 ,
+		"name" : "酒ケース" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : "なるべく販売店に引き取ってもらいましょう。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "酒ケース,さけけーす"
+	},
+	{
+		"id" : 140 ,
+		"name" : "座布団" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "座布団,ざぶとん"
+	},
+	{
+		"id" : 141 ,
+		"name" : "ざる（金属製）" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "ざる（金属製）,ざる"
+	},
+	{
+		"id" : 142 ,
+		"name" : "ざる（プラスチック、竹製）" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "ざる（プラスチック、竹製）,ざる"
+	},
+	{
+		"id" : 143 ,
+		"name" : "三脚" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "三脚,さんきゃく"
+	},
+	{
+		"id" : 144 ,
+		"name" : "三輪車" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : "「不用品」と表示してください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "三輪車,さんりんしゃ"
+	},
+	{
+		"id" : 145 ,
+		"name" : "CD・LD・MD・DVD" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "CD・LD・MD・DVD,しーでぃー,えるでぃー,えむでぃー,でぃーぶいでぃー,ＣＤ,ＭＤ,ＬＤ,ＤＶＤ,cd,md,ld,dvd"
+	},
+	{
+		"id" : 146 ,
+		"name" : "CD・LDプレーヤー" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : "小型家電回収ボックスに入れて下さい。" ,
+		"link" : "<a href=\"/docs/2014121100011/\">小型家電リサイクル</a>" ,
+		"keyword" : "CD・LDプレーヤー,しーでぃー,えるでぃーぷれーやー,ＣＤ,ＬＤ,cd,ld"
+	},
+	{
+		"id" : 147 ,
+		"name" : "シール" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "シール,しーる"
+	},
+	{
+		"id" : 148 ,
+		"name" : "電気シェーバー" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : "小型家電回収ボックスに入れて下さい。" ,
+		"link" : "<a href=\"/docs/2014121100011/\">小型家電リサイクル</a>" ,
+		"keyword" : "電気シェーバー,しぇーばー,ひげそり,でんきじぇーばー,でんどうしぇーばー"
+	},
+	{
+		"id" : 149 ,
+		"name" : "磁石" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "磁石,じしゃく"
+	},
+	{
+		"id" : 150 ,
+		"name" : "シップ" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "シップ,しっぷ"
+	},
+	{
+		"id" : 151 ,
+		"name" : "自転車" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : "防犯登録を抹消し、防犯シールをはがして、「不用品」と表示してください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "自転車,じてんしゃ"
+	},
+	{
+		"id" : 152 ,
+		"name" : "竹刀" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "竹刀,しない"
+	},
+	{
+		"id" : 153 ,
+		"name" : "写真" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "写真,しゃしん"
+	},
+	{
+		"id" : 154 ,
+		"name" : "写真フィルム" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "写真フィルム,しゃしん,ふぃるむ"
+	},
+	{
+		"id" : 155 ,
+		"name" : "シャンプー等の容器" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : "金属製の場合は「不燃ごみ」へ。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "シャンプー等の容器,しゃんぷーとうのようき"
+	},
+	{
+		"id" : 156 ,
+		"name" : "ジューサー" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "ジューサー,じゅーさー"
+	},
+	{
+		"id" : 157 ,
+		"name" : "じゅうたん" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : "丸めて縛ってください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "じゅうたん,じゅうたん"
+	},
+	{
+		"id" : 158 ,
+		"name" : "充電器（小型家電用）" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : "小型家電回収ボックスに入れて下さい。" ,
+		"link" : "<a href=\"/docs/2014121100011/\">小型家電リサイクル</a>" ,
+		"keyword" : "充電器（小型家電用）,じゅうでんき"
+	},
+	{
+		"id" : 159 ,
+		"name" : "充電式電池（2次電池）" ,
+		"sort" : "収集できません" ,
+		"comment" : "リサイクルをお願いします。" ,
+		"recycle" : "電器店等の回収サービスを利用してください。" ,
+		"link" : "<a href=\"/docs/2014051500066/\">充電式電池のリサイクル</a>" ,
+		"keyword" : "充電式電池（2次電池）,じゅうでんち,じゅうでん,でんち,にじでんち"
+	},
+	{
+		"id" : 160 ,
+		"name" : "消火器" ,
+		"sort" : "収集できません" ,
+		"comment" : "販売店または専門業者に相談してください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "消火器,しょうかき"
+	},
+	{
+		"id" : 161 ,
+		"name" : "障子" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : "多量に出る場合は有料になります。<br>複数ある場合は環境保全課にお問い合わせください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "障子,しょうじ"
+	},
+	{
+		"id" : 162 ,
+		"name" : "食用油" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : "液体のままでは収集できません。固めるか、新聞紙等にしみこませるなど、漏れないようにしてください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "食用油,しょくよう,あぶら,てんぷら,オイル,おいる"
+	},
+	{
+		"id" : 163 ,
+		"name" : "除湿剤" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "除湿剤,じょしつざい"
+	},
+	{
+		"id" : 164 ,
+		"name" : "食器棚（金属）" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : "できるだけくずして出してください。<br>複数出す場合や、他にも大型のごみや多量のごみを出す場合は有料になります。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "食器棚（金属）,しょっきだな,みずや"
+	},
+	{
+		"id" : 165 ,
+		"name" : "食器棚（金属以外）" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : "できるだけくずして出してください。<br>ガラスは外して「不燃ごみ」へ。<br>金属の割合が大きい場合は「不燃ごみ」へ。<br>複数出す場合や、他にも大型のごみや多量のごみを出す場合は有料になります。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "食器棚（金属以外）,しょっきだな,みずや"
+	},
+	{
+		"id" : 166 ,
+		"name" : "新聞紙" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : "自治会などの集団回収に出すか、市内の公共施設に設置している古紙回収BOXをご利用ください（できるだけ集団回収を優先してください）。" ,
+		"link" : "<a href=\"/docs/2014082000016/\">古紙リサイクル</a>" ,
+		"keyword" : "新聞紙,しんぶんし,かみ"
+	},
+	{
+		"id" : 167 ,
+		"name" : "水槽（ガラス）" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "水槽（ガラス）,すいそう,あくりる"
+	},
+	{
+		"id" : 168 ,
+		"name" : "水槽（アクリル）" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "水槽（アクリル）,すいそう,がらす"
+	},
+	{
+		"id" : 169 ,
+		"name" : "水中眼鏡" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "水中眼鏡,すいちゅうめがね"
+	},
+	{
+		"id" : 170 ,
+		"name" : "水筒（金属）" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "水筒（金属）,すいとう"
+	},
+	{
+		"id" : 171 ,
+		"name" : "水筒（金属以外）" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "水筒（金属以外）,すいとう"
+	},
+	{
+		"id" : 172 ,
+		"name" : "炊飯器" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "炊飯器,すいはんき"
+	},
+	{
+		"id" : 173 ,
+		"name" : "スーツケース" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "スーツケース,すーつけーす"
+	},
+	{
+		"id" : 174 ,
+		"name" : "スキー板" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "スキー板,すきーいた"
+	},
+	{
+		"id" : 175 ,
+		"name" : "スキーウェアー" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "スキーウェアー,すきーうぇあー,すきーうえあー"
+	},
+	{
+		"id" : 176 ,
+		"name" : "スキー靴" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "スキー靴,すきーぐつ"
+	},
+	{
+		"id" : 177 ,
+		"name" : "スコップ（金属）" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "スコップ（金属）,すこっぷ"
+	},
+	{
+		"id" : 178 ,
+		"name" : "スコップ（金属以外）" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "スコップ（金属以外）,すこっぷ"
+	},
+	{
+		"id" : 179 ,
+		"name" : "スチール棚" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : "できるだけくずして出してください。<br>複数出す場合や、他にも大型のごみや多量のごみを出す場合は有料になります。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "スチール棚,すちーるだな,たな"
+	},
+	{
+		"id" : 180 ,
+		"name" : "ステレオ" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "ステレオ,すてれお,音響機器,おんきょうきき"
+	},
+	{
+		"id" : 181 ,
+		"name" : "ストーブ" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : "灯油は完全に抜き取り、「不用品」と表示してください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "ストーブ,すとーぶ"
+	},
+	{
+		"id" : 182 ,
+		"name" : "スニーカー" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "スニーカー,すにーかー,くつ"
+	},
+	{
+		"id" : 183 ,
+		"name" : "スノーボード" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "スノーボード,すのーぼーど"
+	},
+	{
+		"id" : 184 ,
+		"name" : "スピーカー" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "スピーカー,すぴーかー"
+	},
+	{
+		"id" : 185 ,
+		"name" : "スプーン・フォーク" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "スプーン・フォーク,すぷーん,ふぉーく"
+	},
+	{
+		"id" : 186 ,
+		"name" : "スプリングマット" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : "複数出す場合や、他にも大型のごみや多量のごみを出す場合は有料になります。<br>（平成27年4月からは有料ごみになります。）" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "スプリングマット,すぷりんぐまっと"
+	},
+	{
+		"id" : 187 ,
+		"name" : "スプレー缶" ,
+		"sort" : "資源ごみ" ,
+		"comment" : "必ず穴をあけて中身を完全に空にしてください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "スプレー缶,すぷれーかん"
+	},
+	{
+		"id" : 188 ,
+		"name" : "スポンジ" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "スポンジ,すぽんじ"
+	},
+	{
+		"id" : 189 ,
+		"name" : "スリッパ" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "スリッパ,すりっぱ"
+	},
+	{
+		"id" : 190 ,
+		"name" : "生理用品" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "生理用品,せいりようひん"
+	},
+	{
+		"id" : 191 ,
+		"name" : "せともの" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : "「割れ物」と表示してください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "せともの,せともの"
+	},
+	{
+		"id" : 192 ,
+		"name" : "セロハンテープ" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "セロハンテープ,せろはんてーぷ"
+	},
+	{
+		"id" : 193 ,
+		"name" : "洗剤容器" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : "中身は空にしてください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "洗剤容器,せんざいようき,ぽんぷ"
+	},
+	{
+		"id" : 194 ,
+		"name" : "洗濯機" ,
+		"sort" : "収集できません" ,
+		"comment" : "法律でリサイクルが義務付けられています。" ,
+		"recycle" : "ご自身でリサイクル券を購入して指定の引き取り場所に持ち込んでください。<br>新しい製品に買い替える場合は、その購入先の店舗で引き取ってもらえる場合もあります。" ,
+		"link" : "<a href=\"/docs/2014051500035/\">家電リサイクル</a>" ,
+		"keyword" : "洗濯機,せんたくき"
+	},
+	{
+		"id" : 195 ,
+		"name" : "洗濯ばさみ" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "洗濯ばさみ,せんたくばさみ"
+	},
+	{
+		"id" : 196 ,
+		"name" : "剪定ごみ" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : "多量に出る場合は有料になります。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "剪定ごみ,せんていごみ"
+	},
+	{
+		"id" : 197 ,
+		"name" : "剪定はさみ" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : "「刃物」と表示してください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "剪定はさみ,せんていはさみ"
+	},
+	{
+		"id" : 198 ,
+		"name" : "扇風機" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "扇風機,せんぷうき"
+	},
+	{
+		"id" : 199 ,
+		"name" : "双眼鏡" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "双眼鏡,そうがんきょう"
+	},
+	{
+		"id" : 200 ,
+		"name" : "掃除機" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "掃除機,そうじき"
+	},
+	{
+		"id" : 201 ,
+		"name" : "ぞうり" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "ぞうり,ぞうり"
+	},
+	{
+		"id" : 202 ,
+		"name" : "ソファー" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : "複数（1式以上）出す場合や、他にも大型のごみや多量のごみを出す場合は有料になります。<br>全体が木材でできている場合は「可燃ごみ」へ。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "ソファー,そふぁー"
+	},
+	{
+		"id" : 203 ,
+		"name" : "そり" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : "金属部分の割合が大きい場合は「不燃ごみ」へ。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "そり,そり"
+	},
+	{
+		"id" : 204 ,
+		"name" : "体温計（ガラス製）" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : "「割れ物」と表示してください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "体温計（ガラス製）,たいおんけい"
+	},
+	{
+		"id" : 205 ,
+		"name" : "体温計（デジタル）" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : "小型家電回収ボックスに入れて下さい。" ,
+		"link" : "<a href=\"/docs/2014121100011/\">小型家電リサイクル</a>" ,
+		"keyword" : "体温計（デジタル）,たいおんけい,でじたる,でんし"
+	},
+	{
+		"id" : 206 ,
+		"name" : "体脂肪計" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : "小型家電回収ボックスに入れて下さい。" ,
+		"link" : "<a href=\"/docs/2014121100011/\">小型家電リサイクル</a>" ,
+		"keyword" : "体脂肪計,たいしぼうけい"
+	},
+	{
+		"id" : 207 ,
+		"name" : "台車" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "台車,だいしゃ"
+	},
+	{
+		"id" : 208 ,
+		"name" : "体重計(ヘルスメーター)" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : "小型家電回収ボックスに入れて下さい。" ,
+		"link" : "<a href=\"/docs/2014121100011/\">小型家電リサイクル</a>" ,
+		"keyword" : "体重計(ヘルスメーター),たいじゅうけい,へるすめーたー"
+	},
+	{
+		"id" : 209 ,
+		"name" : "自転車用タイヤ（ゴムチューブのみ）" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "自転車用タイヤ（ゴムチューブのみ）,たいや,じてんしゃ,ごむちゅーぶ"
+	},
+	{
+		"id" : 210 ,
+		"name" : "自転車用タイヤ（リム付）" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : "“リム”はゴムチューブを支える金属の円環部分。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "自転車用タイヤ（リム付）,たいや,じてんしゃ,りむ"
+	},
+	{
+		"id" : 211 ,
+		"name" : "タイヤ（自動車・バイク）" ,
+		"sort" : "収集できません" ,
+		"comment" : "販売店または専門業者に相談してください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "タイヤ（自動車・バイク）,たいや,じどうしゃ,くるま,ばいく,単車,たんしゃ,原付,げんつき"
+	},
+	{
+		"id" : 212 ,
+		"name" : "タオル" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "タオル,たおる"
+	},
+	{
+		"id" : 213 ,
+		"name" : "高枝切はさみ" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "高枝切はさみ,たかえだきりはさみ,せんていばさみ"
+	},
+	{
+		"id" : 214 ,
+		"name" : "畳" ,
+		"sort" : "収集できません" ,
+		"comment" : "少ない枚数であればクリーンセンターへ直接搬入することができます。環境保全課にご相談ください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "畳,たたみ"
+	},
+	{
+		"id" : 215 ,
+		"name" : "タッパー容器（金属）" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "タッパー容器（金属）,たっぱーようき"
+	},
+	{
+		"id" : 216 ,
+		"name" : "タッパー容器（金属以外）" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "タッパー容器（金属以外）,たっぱーようき"
+	},
+	{
+		"id" : 217 ,
+		"name" : "タンス" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : "金属の割合が大きい場合は「不燃ごみ」へ。<br>複数出す場合や、他にも大型のごみや多量のごみを出す場合は有料になります。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "タンス,たんす"
+	},
+	{
+		"id" : 218 ,
+		"name" : "ダンボール" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : "自治会などの集団回収に出すか、市内の公共施設に設置している古紙回収BOXをご利用ください（できるだけ集団回収を優先してください）。" ,
+		"link" : "<a href=\"/docs/2014082000016/\">古紙リサイクル</a>" ,
+		"keyword" : "ダンボール,だんぼーる,かみ"
+	},
+	{
+		"id" : 219 ,
+		"name" : "タンポン" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "タンポン,たんぽん"
+	},
+	{
+		"id" : 220 ,
+		"name" : "タイヤチェーン" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "タイヤチェーン,ちぇーん,くるま,じどうしゃ,たいや"
+	},
+	{
+		"id" : 221 ,
+		"name" : "チャイルドシート" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : "「不用品」と表示してください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "チャイルドシート,ちゃいるどしーと"
+	},
+	{
+		"id" : 222 ,
+		"name" : "ちゃぶ台" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "ちゃぶ台,ちゃぶだい"
+	},
+	{
+		"id" : 223 ,
+		"name" : "茶碗" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "茶碗,ちゃわん"
+	},
+	{
+		"id" : 224 ,
+		"name" : "注射針" ,
+		"sort" : "収集できません" ,
+		"comment" : "医療機関に相談してください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "注射針,ちゅうしゃばり"
+	},
+	{
+		"id" : 225 ,
+		"name" : "杖（金属製）" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "杖（金属製）,つえ"
+	},
+	{
+		"id" : 226 ,
+		"name" : "杖（木製）" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "杖（木製）,つえ"
+	},
+	{
+		"id" : 227 ,
+		"name" : "机（金属）" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : "複数出す場合や、他にも大型のごみや多量のごみを出す場合は有料になります。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "机（金属）,つくえ"
+	},
+	{
+		"id" : 228 ,
+		"name" : "机（金属以外）" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : "複数出す場合や、他にも大型のごみや多量のごみを出す場合は有料になります。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "机（金属以外）,つくえ"
+	},
+	{
+		"id" : 229 ,
+		"name" : "漬物の床" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "漬物の床,つけもののとこ,つけものどこ"
+	},
+	{
+		"id" : 230 ,
+		"name" : "爪きり" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "爪きり,つめきり"
+	},
+	{
+		"id" : 231 ,
+		"name" : "漬物の石" ,
+		"sort" : "収集できません" ,
+		"comment" : "販売店または専門業者に相談してください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "漬物の石,つめもののいし,つけものいし"
+	},
+	{
+		"id" : 232 ,
+		"name" : "釣り竿" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "釣り竿,つりざお"
+	},
+	{
+		"id" : 233 ,
+		"name" : "釣り竿（木・竹）" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "釣り竿（木・竹）,つりざお"
+	},
+	{
+		"id" : 234 ,
+		"name" : "テーブル（金属）" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : "複数出す場合や、他にも大型のごみや多量のごみを出す場合は有料になります。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "テーブル（金属）,てーぶる"
+	},
+	{
+		"id" : 235 ,
+		"name" : "テーブル（金属以外）" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : "複数出す場合や、他にも大型のごみや多量のごみを出す場合は有料になります。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "テーブル（金属以外）,てーぶる"
+	},
+	{
+		"id" : 236 ,
+		"name" : "テーブルタップ（電気コード）" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "テーブルタップ（電気コード）,てーぶるたっぷ,でんきこーど"
+	},
+	{
+		"id" : 237 ,
+		"name" : "テープレコーダー" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : "小型家電回収ボックスに入れて下さい。" ,
+		"link" : "<a href=\"/docs/2014121100011/\">小型家電リサイクル</a>" ,
+		"keyword" : "テープレコーダー,てーぷれこーだー"
+	},
+	{
+		"id" : 238 ,
+		"name" : "デジタルオーディオプレーヤー" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : "小型家電回収ボックスに入れて下さい。" ,
+		"link" : "<a href=\"/docs/2014121100011/\">小型家電リサイクル</a>" ,
+		"keyword" : "デジタルオーディオプレーヤー,でじたるおーでぃおぷれーやー,音響機器,おんきょうきき"
+	},
+	{
+		"id" : 239 ,
+		"name" : "鉄アレイ" ,
+		"sort" : "収集できません" ,
+		"comment" : "販売店等に相談してください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "鉄アレイ,てつあれい"
+	},
+	{
+		"id" : 240 ,
+		"name" : "テレビ" ,
+		"sort" : "収集できません" ,
+		"comment" : "法律でリサイクルが義務付けられています。" ,
+		"recycle" : "ご自身でリサイクル券を購入して指定の引き取り場所に持ち込んでください。<br>新しい製品に買い替える場合は、その購入先の店舗で引き取ってもらえる場合もあります。" ,
+		"link" : "<a href=\"/docs/2014051500035/\">家電リサイクル</a>" ,
+		"keyword" : "テレビ,てれび,TV,ＴＶ,tv"
+	},
+	{
+		"id" : 241 ,
+		"name" : "電気カーペット" ,
+		"sort" : "可燃ごみ,不燃ごみ" ,
+		"comment" : "コードやコントローラーは切り離して「不燃ごみ」へ。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "電気カーペット,でんきかーぺっと"
+	},
+	{
+		"id" : 242 ,
+		"name" : "電気コード" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "電気コード,でんきこーど"
+	},
+	{
+		"id" : 243 ,
+		"name" : "電気バリカン" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : "小型家電回収ボックスに入れて下さい。" ,
+		"link" : "<a href=\"/docs/2014121100011/\">小型家電リサイクル</a>" ,
+		"keyword" : "電気バリカン,でんきばりかん"
+	},
+	{
+		"id" : 244 ,
+		"name" : "電気毛布" ,
+		"sort" : "可燃ごみ,不燃ごみ" ,
+		"comment" : "コードやコントローラーは切り離して「不燃ごみ」へ。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "電気毛布,でんきもうふ"
+	},
+	{
+		"id" : 245 ,
+		"name" : "電球" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : "「割れ物」と表示し、割れて飛散しないようにしてください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "電球,でんきゅう"
+	},
+	{
+		"id" : 246 ,
+		"name" : "電子辞書" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : "小型家電回収ボックスに入れて下さい。" ,
+		"link" : "<a href=\"/docs/2014121100011/\">小型家電リサイクル</a>" ,
+		"keyword" : "電子辞書,でんしじしょ"
+	},
+	{
+		"id" : 247 ,
+		"name" : "電子書籍端末" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : "個人情報は削除してください。" ,
+		"recycle" : "小型家電回収ボックスに入れて下さい（個人情報は削除してください）。" ,
+		"link" : "<a href=\"/docs/2014121100011/\">小型家電リサイクル</a>" ,
+		"keyword" : "電子書籍端末,でんししょせきたんまつ"
+	},
+	{
+		"id" : 248 ,
+		"name" : "電子手帳" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : "個人情報は削除してください。" ,
+		"recycle" : "小型家電回収ボックスに入れて下さい（個人情報は削除してください）。" ,
+		"link" : "<a href=\"/docs/2014121100011/\">小型家電リサイクル</a>" ,
+		"keyword" : "電子手帳,でんしてちょう"
+	},
+	{
+		"id" : 249 ,
+		"name" : "テント" ,
+		"sort" : "可燃ごみ,不燃ごみ" ,
+		"comment" : "布、ビニール生地の部分は「可燃ごみ」、フレームなど金属部分は「不燃ごみ」へ。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "テント,てんと"
+	},
+	{
+		"id" : 250 ,
+		"name" : "電動歯ブラシ" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : "小型家電回収ボックスに入れて下さい。" ,
+		"link" : "<a href=\"/docs/2014121100011/\">小型家電リサイクル</a>" ,
+		"keyword" : "電動歯ブラシ,でんどうはぶらし"
+	},
+	{
+		"id" : 251 ,
+		"name" : "天ぷら油" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : "新聞紙等に吸わせるなどして、漏れないようにしてください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "天ぷら油,てんぷらあぶら"
+	},
+	{
+		"id" : 252 ,
+		"name" : "電話機、ファックス" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : "個人情報は削除してください。" ,
+		"recycle" : "小型家電回収ボックスに入れて下さい（個人情報は削除してください）。" ,
+		"link" : "<a href=\"/docs/2014121100011/\">小型家電リサイクル</a>" ,
+		"keyword" : "電話機、ファックス,でんわき,ＦＡＸ,FAX,ふぁっくす,ファクシミリ,ふぁくしみり"
+	},
+	{
+		"id" : 253 ,
+		"name" : "投網" ,
+		"sort" : "可燃ごみ,不燃ごみ" ,
+		"comment" : "網とおもりを切り離し、網は「可燃ごみ」、おもり「不燃ごみ」へ。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "投網,とあみ"
+	},
+	{
+		"id" : 254 ,
+		"name" : "陶磁器" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "陶磁器,とうじき"
+	},
+	{
+		"id" : 255 ,
+		"name" : "トースター" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "トースター,とーすたー"
+	},
+	{
+		"id" : 256 ,
+		"name" : "時計" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : "小型家電回収ボックスに入れて下さい。" ,
+		"link" : "<a href=\"/docs/2014121100011/\">小型家電リサイクル</a>" ,
+		"keyword" : "時計,とけい"
+	},
+	{
+		"id" : 257 ,
+		"name" : "トタン" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : "多量に出る場合は収集できません。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "トタン,とたん"
+	},
+	{
+		"id" : 258 ,
+		"name" : "土鍋" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "土鍋,どなべ"
+	},
+	{
+		"id" : 259 ,
+		"name" : "ドライヤー" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : "小型家電回収ボックスに入れて下さい。" ,
+		"link" : "<a href=\"/docs/2014121100011/\">小型家電リサイクル</a>" ,
+		"keyword" : "ドライヤー,どらいやー"
+	},
+	{
+		"id" : 260 ,
+		"name" : "ドラム缶" ,
+		"sort" : "収集できません" ,
+		"comment" : "販売店または専門業者に相談してください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "ドラム缶,どらむかん"
+	},
+	{
+		"id" : 261 ,
+		"name" : "鳥かご" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "鳥かご,とりかご"
+	},
+	{
+		"id" : 262 ,
+		"name" : "塗料" ,
+		"sort" : "収集できません" ,
+		"comment" : "販売店または専門業者に相談してください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "塗料,とりょう"
+	},
+	{
+		"id" : 263 ,
+		"name" : "塗料缶（家庭用に限る）" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : "中身は完全に空にしてください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "塗料缶（家庭用に限る）,とりょうかん"
+	},
+	{
+		"id" : 264 ,
+		"name" : "ドレッシング瓶（ガラス）" ,
+		"sort" : "資源ごみ" ,
+		"comment" : "中身を空にし、水洗いしてください。<br>フタやラベルなど、プラスチックや紙の部分は「可燃ごみ」へ。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "ドレッシング瓶（ガラス）,どれっしんぐびん"
+	},
+	{
+		"id" : 265 ,
+		"name" : "ドレッシング瓶（プラスチック）" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : "中身を空にし、水洗いしてください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "ドレッシング瓶（プラスチック）,どれっしんぐびん"
+	},
+	{
+		"id" : 266 ,
+		"name" : "ナイフ" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : "刃の部分が露出しないようにし、「刃物」と表示してください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "ナイフ,ないふ"
+	},
+	{
+		"id" : 267 ,
+		"name" : "流し台" ,
+		"sort" : "収集できません" ,
+		"comment" : "販売店または専門業者に相談してください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "流し台,ながしだい"
+	},
+	{
+		"id" : 268 ,
+		"name" : "ナタ" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : "刃の部分が露出しないようにし、「刃物」と表示してください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "ナタ,なた"
+	},
+	{
+		"id" : 269 ,
+		"name" : "ナプキン" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "ナプキン,なぷきん"
+	},
+	{
+		"id" : 270 ,
+		"name" : "なべ" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "なべ,なべ"
+	},
+	{
+		"id" : 271 ,
+		"name" : "生ごみ" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : "水気を切って出してください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "生ごみ,なまごみ"
+	},
+	{
+		"id" : 272 ,
+		"name" : "波板（アクリル）" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : "多量に出る場合は収集できません。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "波板（アクリル）,なみいた"
+	},
+	{
+		"id" : 273 ,
+		"name" : "妊娠検査薬" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "妊娠検査薬,にんしんけんさやく,にんしんけんさぐすり"
+	},
+	{
+		"id" : 274 ,
+		"name" : "ぬいぐるみ" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "ぬいぐるみ,ぬいぐるみ"
+	},
+	{
+		"id" : 275 ,
+		"name" : "ぬか床" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "ぬか床,ぬかどこ"
+	},
+	{
+		"id" : 276 ,
+		"name" : "ねこ車（手押し車、一輪車）" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : "不用品と表示してください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "ねこ車（手押し車、一輪車）,ねこぐるま,ておしぐるま,いちりんしゃ"
+	},
+	{
+		"id" : 277 ,
+		"name" : "寝袋" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "寝袋,ねぶくろ"
+	},
+	{
+		"id" : 278 ,
+		"name" : "粘土（紙ねんど・油ねんど）" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "粘土（紙ねんど・油ねんど）,ねんど,かみ,あぶら"
+	},
+	{
+		"id" : 279 ,
+		"name" : "農薬" ,
+		"sort" : "収集できません" ,
+		"comment" : "販売店または専門業者に相談してください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "農薬,のうやく"
+	},
+	{
+		"id" : 280 ,
+		"name" : "ノートパソコン" ,
+		"sort" : "収集できません" ,
+		"comment" : "リサイクルをお願いします。" ,
+		"recycle" : "メーカーに引き取りを依頼するか、小型家電回収ボックスに入れて下さい（個人情報は削除してください）。" ,
+		"link" : "<a href=\"/docs/2014051500042/\">パソコンリサイクル</a><a href=\"/docs/2014121100011/\">小型家電リサイクル</a>" ,
+		"keyword" : "ノートパソコン,のーとぱそこん,PC,ＰＣ,ぴーしー"
+	},
+	{
+		"id" : 281 ,
+		"name" : "のこぎり" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : "刃の部分が露出しないようにし、「刃物」と表示してください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "のこぎり,のこぎり"
+	},
+	{
+		"id" : 282 ,
+		"name" : "バイク" ,
+		"sort" : "収集できません" ,
+		"comment" : "販売店または専門業者に相談してください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "バイク,ばいく,単車,たんしゃ,原付,げんつき"
+	},
+	{
+		"id" : 283 ,
+		"name" : "パイプベッド" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : "複数出す場合や、他にも大型のごみや多量のごみを出す場合は有料になります。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "パイプベッド,ぱいぷ,べっど"
+	},
+	{
+		"id" : 284 ,
+		"name" : "廃油（食用油以外）" ,
+		"sort" : "収集できません" ,
+		"comment" : "販売店または専門業者に相談してください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "廃油（食用油以外）,はいゆ,あぶら"
+	},
+	{
+		"id" : 285 ,
+		"name" : "はがき" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : "自治会などの集団回収に出すか、市内の公共施設に設置している古紙回収BOXをご利用ください（できるだけ集団回収を優先してください）。" ,
+		"link" : "<a href=\"/docs/2014082000016/\">古紙リサイクル</a>" ,
+		"keyword" : "はがき,はがき,かみ"
+	},
+	{
+		"id" : 286 ,
+		"name" : "バケツ（金属）" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "バケツ（金属）,ばけつ"
+	},
+	{
+		"id" : 287 ,
+		"name" : "バケツ（金属以外）" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "バケツ（金属以外）,ばけつ"
+	},
+	{
+		"id" : 288 ,
+		"name" : "箸" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "箸,はし"
+	},
+	{
+		"id" : 289 ,
+		"name" : "パソコン本体" ,
+		"sort" : "収集できません" ,
+		"comment" : "リサイクルをお願いします。" ,
+		"recycle" : "メーカーに引き取りを依頼するか、小型家電回収ボックスに入れて下さい（サイズの規定があります、個人情報は削除してください）。" ,
+		"link" : "<a href=\"/docs/2014051500042/\">パソコンリサイクル</a><a href=\"/docs/2014121100011/\">小型家電リサイクル</a>" ,
+		"keyword" : "パソコン本体,ぱそこん,PC"
+	},
+	{
+		"id" : 290 ,
+		"name" : "キーボード（パソコン用）" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : "小型家電回収ボックスに入れて下さい。" ,
+		"link" : "<a href=\"/docs/2014121100011/\">小型家電リサイクル</a>" ,
+		"keyword" : "キーボード（パソコン用）,ぱそこん,きーぼーど,PC,ぴーしー"
+	},
+	{
+		"id" : 291 ,
+		"name" : "パソコン用ディスプレイ" ,
+		"sort" : "収集できません" ,
+		"comment" : "リサイクルをお願いします。" ,
+		"recycle" : "メーカーに引き取りを依頼するか、小型家電回収ボックスに入れて下さい（サイズの規定があります）。" ,
+		"link" : "<a href=\"/docs/2014051500042/\">パソコンリサイクル</a>" ,
+		"keyword" : "パソコン用ディスプレイ,ぱそこん,でぃすぷれい,ディスプレー,でぃすぷれー,PC,ぴーしー"
+	},
+	{
+		"id" : 292 ,
+		"name" : "マウス（パソコン用）" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : "小型家電回収ボックスに入れて下さい。" ,
+		"link" : "<a href=\"/docs/2014121100011/\">小型家電リサイクル</a>" ,
+		"keyword" : "マウス（パソコン用）,ぱそこん,まうす,PC,ぴーしー"
+	},
+	{
+		"id" : 293 ,
+		"name" : "バッテリー（自動車用・バイク用）" ,
+		"sort" : "収集できません" ,
+		"comment" : "販売店または専門業者に相談してください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "バッテリー（自動車用・バイク用）,ばってりー,じどうしゃ,くるま,ばいく,げんつき,原付,単車,たんしゃ"
+	},
+	{
+		"id" : 294 ,
+		"name" : "バッテリー（電動自転車）" ,
+		"sort" : "収集できません" ,
+		"comment" : "リサイクルをお願いします。" ,
+		"recycle" : "電器店等の回収サービスを利用してください。" ,
+		"link" : "<a href=\"/docs/2014051500066/\">充電式電池のリサイクル</a>" ,
+		"keyword" : "バッテリー（電動自転車）,ばってりー,電池,でんち,でんどうじてんしゃ"
+	},
+	{
+		"id" : 295 ,
+		"name" : "木製バット（野球用）" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "木製バット（野球用）,ばっと,やきゅう,そふとぼーる"
+	},
+	{
+		"id" : 296 ,
+		"name" : "金属バット（野球用）" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "金属バット（野球用）,ばっと,やきゅう,そふとぼーる,きんぞく"
+	},
+	{
+		"id" : 297 ,
+		"name" : "料理用バット（金属・ホーロー）" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "料理用バット（金属・ホーロー）,ばっと,りょうり,ほーろー"
+	},
+	{
+		"id" : 298 ,
+		"name" : "料理用バット（金属・ホーロー以外）" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "料理用バット（金属・ホーロー以外）,ばっと,りょうり,ほーろー"
+	},
+	{
+		"id" : 299 ,
+		"name" : "発泡スチロール" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : "多量に出る場合は収集できません。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "発泡スチロール,はっぽうすちろーる"
+	},
+	{
+		"id" : 300 ,
+		"name" : "花火" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : "少量に限ります。湿らせた新聞紙等でくるんで出してください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "花火,はなび"
+	},
+	{
+		"id" : 301 ,
+		"name" : "歯ブラシ" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "歯ブラシ,はぶらし"
+	},
+	{
+		"id" : 302 ,
+		"name" : "歯みがきチューブ" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "歯みがきチューブ,はみがきちゅーぶ"
+	},
+	{
+		"id" : 303 ,
+		"name" : "刃物" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : "刃が露出しないようにし、「刃物」と表示してください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "刃物,はもの"
+	},
+	{
+		"id" : 304 ,
+		"name" : "バラン（仕切り用）" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "バラン（仕切り用）,ばらん,しきり"
+	},
+	{
+		"id" : 305 ,
+		"name" : "針" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : "刺さらないようテープ等でまとめてください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "針,はり"
+	},
+	{
+		"id" : 306 ,
+		"name" : "針金（番線以外）" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "針金（番線以外）,はりがね"
+	},
+	{
+		"id" : 307 ,
+		"name" : "ハロゲンヒーター" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "ハロゲンヒーター,はろげんひーたー"
+	},
+	{
+		"id" : 308 ,
+		"name" : "ハンガー（金属以外）" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "ハンガー（金属以外）,はんがー"
+	},
+	{
+		"id" : 309 ,
+		"name" : "ハンガー（針金）" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "ハンガー（針金）,はんがー"
+	},
+	{
+		"id" : 310 ,
+		"name" : "ビール瓶" ,
+		"sort" : "資源ごみ" ,
+		"comment" : "中身を空にし、水洗いしてください。<br>なるべく販売店に引き取ってもらいましょう。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "ビール瓶,びーるびん"
+	},
+	{
+		"id" : 311 ,
+		"name" : "ビデオカメラ" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : "個人情報は削除してください。" ,
+		"recycle" : "小型家電回収ボックスに入れて下さい（個人情報は削除してください）。" ,
+		"link" : "<a href=\"/docs/2014121100011/\">小型家電リサイクル</a>" ,
+		"keyword" : "ビデオカメラ,びでおかめら"
+	},
+	{
+		"id" : 312 ,
+		"name" : "ビデオテープ類" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "ビデオテープ類,びでおてーぷ"
+	},
+	{
+		"id" : 313 ,
+		"name" : "ビデオデッキ" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : "小型家電回収ボックスに入れて下さい。" ,
+		"link" : "<a href=\"/docs/2014121100011/\">小型家電リサイクル</a>" ,
+		"keyword" : "ビデオデッキ,びでおでっき"
+	},
+	{
+		"id" : 314 ,
+		"name" : "ビニール袋" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "ビニール袋,びにーるぶくろ"
+	},
+	{
+		"id" : 315 ,
+		"name" : "ビニールホース" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "ビニールホース,びにーるほーす"
+	},
+	{
+		"id" : 316 ,
+		"name" : "ビニールシート" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : "業務用のもの（農業用など）は収集できません。販売店または専門業者に相談してください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "ビニールシート,ビニル,びにる,びにーる,しーと"
+	},
+	{
+		"id" : 317 ,
+		"name" : "ビニールテープ" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "ビニールテープ,ビニル,びにる,びにーる,てーぷ"
+	},
+	{
+		"id" : 318 ,
+		"name" : "火鉢" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "火鉢,ひばち"
+	},
+	{
+		"id" : 319 ,
+		"name" : "ファイル（プラスチック製）" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "ファイル（プラスチック製）,ふぁいる"
+	},
+	{
+		"id" : 320 ,
+		"name" : "封筒" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : "自治会などの集団回収に出すか、市内の公共施設に設置している古紙回収BOXをご利用ください（できるだけ集団回収を優先してください）。" ,
+		"link" : "<a href=\"/docs/2014082000016/\">古紙リサイクル</a>" ,
+		"keyword" : "封筒,ふうとう,かみ"
+	},
+	{
+		"id" : 321 ,
+		"name" : "ふすま" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : "多量に出る場合は有料になります。<br>複数ある場合は環境保全課にお問い合わせください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "ふすま,ふすま"
+	},
+	{
+		"id" : 322 ,
+		"name" : "仏壇" ,
+		"sort" : "収集できません" ,
+		"comment" : "販売店または専門業者に相談してください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "仏壇,ぶつだん"
+	},
+	{
+		"id" : 323 ,
+		"name" : "筆" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "筆,ふで"
+	},
+	{
+		"id" : 324 ,
+		"name" : "ふとん" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : "丸めて縛ってください。多量に出る場合は有料になります。<br>複数ある場合は環境保全課にお問い合わせください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "ふとん,ふとん"
+	},
+	{
+		"id" : 325 ,
+		"name" : "ブラインド" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "ブラインド,ぶらいんど"
+	},
+	{
+		"id" : 326 ,
+		"name" : "プリンター（家庭用）" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "プリンター（家庭用）,ぷりんたー"
+	},
+	{
+		"id" : 327 ,
+		"name" : "プリンターのインク" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : "電器店などの回収サービスを利用してください。" ,
+		"link" : null ,
+		"keyword" : "プリンターのインク,ぷりんたー,いんく"
+	},
+	{
+		"id" : 328 ,
+		"name" : "風呂用ふた" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "風呂用ふた,ふろ,ふた"
+	},
+	{
+		"id" : 329 ,
+		"name" : "風呂用マット" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "風呂用マット,ふろ,まっと"
+	},
+	{
+		"id" : 330 ,
+		"name" : "フロッピーディスク" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "フロッピーディスク,ふろっぴーでぃすく"
+	},
+	{
+		"id" : 331 ,
+		"name" : "ペット用のケージ（檻）" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "ペット用のケージ（檻）,ぺっと,おり,けーじ"
+	},
+	{
+		"id" : 332 ,
+		"name" : "ベッドフレーム（金属）" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : "複数出す場合や、他にも大型のごみや多量のごみを出す場合は有料になります。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "ベッドフレーム（金属）,べっど,ベット,べっと,ふれーむ,枠,わく"
+	},
+	{
+		"id" : 333 ,
+		"name" : "ベッドフレーム（金属以外）" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : "複数出す場合や、他にも大型のごみや多量のごみを出す場合は有料になります。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "ベッドフレーム（金属以外）,べっど,ベット,べっと,ふれーむ,枠,わく"
+	},
+	{
+		"id" : 334 ,
+		"name" : "ペットの遺体" ,
+		"sort" : "収集できません" ,
+		"comment" : "火葬をご希望の際は環境保全課にご連絡ください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "ペットの遺体,ぺっとのいたい"
+	},
+	{
+		"id" : 335 ,
+		"name" : "ペットフード缶詰" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : "中身を空にし、水洗いしてください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "ペットフード缶詰,ぺっとふーど,かんづめ"
+	},
+	{
+		"id" : 336 ,
+		"name" : "ペットボトル" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : "中身を空にし水洗いしてから、自治会などの集団回収に出すか、市内の公共施設に設置しているペットボトル回収BOXをご利用ください（できるだけ集団回収を優先してください）。" ,
+		"link" : "<a href=\"/docs/2014051500028/\">ペットボトル・紙パックのリサイクル</a>" ,
+		"keyword" : "ペットボトル,ぺっとぼとる"
+	},
+	{
+		"id" : 337 ,
+		"name" : "ヘッドホン" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : "小型家電回収ボックスに入れて下さい。" ,
+		"link" : "<a href=\"/docs/2014121100011/\">小型家電リサイクル</a>" ,
+		"keyword" : "ヘッドホン,へっどほん"
+	},
+	{
+		"id" : 338 ,
+		"name" : "ベビーカー、乳母車" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : "「不用品」と表示してください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "ベビーカー、乳母車,べびーかー,うばぐるま"
+	},
+	{
+		"id" : 339 ,
+		"name" : "ヘヤーアイロン" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : "小型家電回収ボックスに入れて下さい。" ,
+		"link" : "<a href=\"/docs/2014121100011/\">小型家電リサイクル</a>" ,
+		"keyword" : "ヘヤーアイロン,へやーあいろん"
+	},
+	{
+		"id" : 340 ,
+		"name" : "ヘルメット" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "ヘルメット,へるめっと"
+	},
+	{
+		"id" : 341 ,
+		"name" : "便器・洗面台" ,
+		"sort" : "収集できません" ,
+		"comment" : "販売店または専門業者に相談してください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "便器・洗面台,べんき,せんめんだい"
+	},
+	{
+		"id" : 342 ,
+		"name" : "便座" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "便座,べんざ"
+	},
+	{
+		"id" : 343 ,
+		"name" : "ホイール（自動車用）" ,
+		"sort" : "収集できません" ,
+		"comment" : "販売店または専門業者に相談してください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "ホイール（自動車用）,ほいーる"
+	},
+	{
+		"id" : 344 ,
+		"name" : "ホイールキャップ" ,
+		"sort" : "収集できません" ,
+		"comment" : "販売店または専門業者に相談してください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "ホイールキャップ,ほいーるきゃっぷ"
+	},
+	{
+		"id" : 345 ,
+		"name" : "ボイラー" ,
+		"sort" : "収集できません" ,
+		"comment" : "販売店または専門業者に相談してください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "ボイラー,ぼいらー"
+	},
+	{
+		"id" : 346 ,
+		"name" : "方位磁石" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "方位磁石,ほういじしゃく"
+	},
+	{
+		"id" : 347 ,
+		"name" : "ほうき" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "ほうき,ほうき"
+	},
+	{
+		"id" : 348 ,
+		"name" : "包装紙" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : "自治会などの集団回収に出すか、市内の公共施設に設置している古紙回収BOXをご利用ください（できるだけ集団回収を優先してください）。" ,
+		"link" : "<a href=\"/docs/2014082000016/\">古紙リサイクル</a>" ,
+		"keyword" : "包装紙,ほうそうし,かみ"
+	},
+	{
+		"id" : 349 ,
+		"name" : "包丁" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : "刃の部分が露出しないようにし、「刃物」と表示してください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "包丁,ほうちょう,はもの"
+	},
+	{
+		"id" : 350 ,
+		"name" : "キッチン用ボウル（金属）" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "キッチン用ボウル（金属）,ぼうる"
+	},
+	{
+		"id" : 351 ,
+		"name" : "キッチン用ボウル（金属）" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "キッチン用ボウル（金属）,ぼうる"
+	},
+	{
+		"id" : 352 ,
+		"name" : "キッチン用ボウル（金属以外）" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "キッチン用ボウル（金属以外）,ぼうる"
+	},
+	{
+		"id" : 353 ,
+		"name" : "ホース" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "ホース,ほーす"
+	},
+	{
+		"id" : 354 ,
+		"name" : "ボーリングの球" ,
+		"sort" : "収集できません" ,
+		"comment" : "販売店または専門業者に相談してください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "ボーリングの球,ぼーりんぐのたま"
+	},
+	{
+		"id" : 355 ,
+		"name" : "保温材・保冷剤" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "保温材・保冷剤,ほおんざい,ほれいざい"
+	},
+	{
+		"id" : 356 ,
+		"name" : "ボタン型電池" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "ボタン型電池,ぼたんがたでんち"
+	},
+	{
+		"id" : 357 ,
+		"name" : "補聴器" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : "小型家電回収ボックスに入れて下さい。" ,
+		"link" : "<a href=\"/docs/2014121100011/\">小型家電リサイクル</a>" ,
+		"keyword" : "補聴器,ほちょうき"
+	},
+	{
+		"id" : 358 ,
+		"name" : "ポット・魔法瓶" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "ポット・魔法瓶,ぽっと,まほうびん"
+	},
+	{
+		"id" : 359 ,
+		"name" : "ポリタンク" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : "中身は完全に空にしてください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "ポリタンク,ぽりたんく,ぽりようき,ポリ容器"
+	},
+	{
+		"id" : 360 ,
+		"name" : "本、雑誌" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : "自治会などの集団回収に出すか、市内の公共施設に設置している古紙回収BOXをご利用ください（できるだけ集団回収を優先してください）。" ,
+		"link" : "<a href=\"/docs/2014082000016/\">古紙リサイクル</a>" ,
+		"keyword" : "本、雑誌,ほん,ざっし,しょせき,かみ"
+	},
+	{
+		"id" : 361 ,
+		"name" : "本棚（木製）" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : "できるだけくずして出してください。<br>複数出す場合や、他にも大型のごみや多量のごみを出す場合は有料になります。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "本棚（木製）,ほんだな,たな"
+	},
+	{
+		"id" : 362 ,
+		"name" : "まくら" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "まくら,まくら"
+	},
+	{
+		"id" : 363 ,
+		"name" : "マジック" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "マジック,まじっく"
+	},
+	{
+		"id" : 364 ,
+		"name" : "マッサージチェア" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : "収集作業員が二人で持ち運べるものに限ります。<br>通常収集の範囲を超える場合は有料での収集となります、環境保全課までお問い合わせください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "マッサージチェア,まっさーじちぇあ"
+	},
+	{
+		"id" : 365 ,
+		"name" : "まな板" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "まな板,まないた"
+	},
+	{
+		"id" : 366 ,
+		"name" : "ミシン" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "ミシン,みしん"
+	},
+	{
+		"id" : 367 ,
+		"name" : "虫めがね" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "虫めがね,むしめがね"
+	},
+	{
+		"id" : 368 ,
+		"name" : "めがね" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "めがね,めがね"
+	},
+	{
+		"id" : 369 ,
+		"name" : "メモリーカード類" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : "個人情報は削除してください。" ,
+		"recycle" : "小型家電回収ボックスに入れて下さい（個人情報は削除してください）。" ,
+		"link" : "<a href=\"/docs/2014121100011/\">小型家電リサイクル</a>" ,
+		"keyword" : "メモリーカード類,めもりーかーど"
+	},
+	{
+		"id" : 370 ,
+		"name" : "毛布" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : "丸めて縛ってください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "毛布,もうふ"
+	},
+	{
+		"id" : 371 ,
+		"name" : "モーター" ,
+		"sort" : "収集できません" ,
+		"comment" : "販売店または専門業者に相談してください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "モーター,もーたー"
+	},
+	{
+		"id" : 372 ,
+		"name" : "物干し竿（金属）" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "物干し竿（金属）,ものほしざお"
+	},
+	{
+		"id" : 373 ,
+		"name" : "物干し台（金属）" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : "土台がコンクリート製のものについては環境保全課にご確認ください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "物干し台（金属）,ものほしだい"
+	},
+	{
+		"id" : 374 ,
+		"name" : "やかん" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "やかん,やかん"
+	},
+	{
+		"id" : 375 ,
+		"name" : "薬品類" ,
+		"sort" : "収集できません" ,
+		"comment" : "販売店または専門業者に相談してください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "薬品類,やくひんるい"
+	},
+	{
+		"id" : 376 ,
+		"name" : "USBメモリー" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : "個人情報は削除してください。" ,
+		"recycle" : "小型家電回収ボックスに入れて下さい（個人情報は削除してください）。" ,
+		"link" : "<a href=\"/docs/2014121100011/\">小型家電リサイクル</a>" ,
+		"keyword" : "USBメモリー,ゆーえすびー,ＵＳＢ,めもりー"
+	},
+	{
+		"id" : 377 ,
+		"name" : "有刺鉄線" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : "多量に出る場合は収集できません。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "有刺鉄線,ゆうしてっせん"
+	},
+	{
+		"id" : 378 ,
+		"name" : "湯たんぽ（金属）" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "湯たんぽ（金属）,ゆたんぽ"
+	},
+	{
+		"id" : 379 ,
+		"name" : "湯たんぽ（金属以外）" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "湯たんぽ（金属以外）,ゆたんぽ"
+	},
+	{
+		"id" : 380 ,
+		"name" : "湯のみ" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "湯のみ,ゆのみ"
+	},
+	{
+		"id" : 381 ,
+		"name" : "洋服" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : "自治会等で集団回収を行っている場合は、できるだけそちらを利用してください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "洋服,ようふく"
+	},
+	{
+		"id" : 382 ,
+		"name" : "ライター" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : "ガスは必ず抜き切ってください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "ライター,らいたー"
+	},
+	{
+		"id" : 383 ,
+		"name" : "ラケット" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "ラケット,らけっと"
+	},
+	{
+		"id" : 384 ,
+		"name" : "ラジオ" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : "小型家電回収ボックスに入れて下さい。" ,
+		"link" : "<a href=\"/docs/2014121100011/\">小型家電リサイクル</a>" ,
+		"keyword" : "ラジオ,らじお"
+	},
+	{
+		"id" : 385 ,
+		"name" : "ラップ" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "ラップ,らっぷ"
+	},
+	{
+		"id" : 386 ,
+		"name" : "ランドセル" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "ランドセル,らんどせる"
+	},
+	{
+		"id" : 387 ,
+		"name" : "リモコン" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : "小型家電回収ボックスに入れて下さい。" ,
+		"link" : "<a href=\"/docs/2014121100011/\">小型家電リサイクル</a>" ,
+		"keyword" : "リモコン,りもこん"
+	},
+	{
+		"id" : 388 ,
+		"name" : "リュック" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "リュック,りゅっく"
+	},
+	{
+		"id" : 389 ,
+		"name" : "ルーペ" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "ルーペ,るーぺ"
+	},
+	{
+		"id" : 390 ,
+		"name" : "冷蔵庫(冷凍庫)" ,
+		"sort" : "収集できません" ,
+		"comment" : "法律でリサイクルが義務付けられています。<br>販売店に相談するか、リサイクル券を購入して指定の引き取り場所に持ち込んでください。" ,
+		"recycle" : null ,
+		"link" : "<a href=\"/docs/2014051500035/\">家電リサイクル</a>" ,
+		"keyword" : "冷蔵庫(冷凍庫),れいぞうこ,れいとうこ"
+	},
+	{
+		"id" : 391 ,
+		"name" : "レコード盤" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "レコード盤,れこーど"
+	},
+	{
+		"id" : 392 ,
+		"name" : "レコードプレーヤー" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "レコードプレーヤー,れこーどぷれーやー"
+	},
+	{
+		"id" : 393 ,
+		"name" : "レジ袋" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "レジ袋,れじぶくろ"
+	},
+	{
+		"id" : 394 ,
+		"name" : "レンガ" ,
+		"sort" : "収集できません" ,
+		"comment" : "購入店または専門業者に相談してください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "レンガ,れんが"
+	},
+	{
+		"id" : 395 ,
+		"name" : "ワープロ" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "ワープロ,わーぷろ"
+	},
+	{
+		"id" : 396 ,
+		"name" : "輪ゴム" ,
+		"sort" : "可燃ごみ" ,
+		"comment" : null ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "輪ゴム,わごむ"
+	},
+	{
+		"id" : 397 ,
+		"name" : "割れたびん" ,
+		"sort" : "不燃ごみ" ,
+		"comment" : "「割れ物」と表示してください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "割れたびん,われたびん"
+	},
+	{
+		"id" : 398 ,
+		"name" : "オイルヒーター" ,
+		"sort" : "収集できません" ,
+		"comment" : "購入店または専門業者に相談してください。" ,
+		"recycle" : null ,
+		"link" : null ,
+		"keyword" : "オイルヒーター,おいるひーたー"
+	}
+]

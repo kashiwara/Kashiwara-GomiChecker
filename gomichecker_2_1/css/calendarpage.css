@@ -1,0 +1,284 @@
+@charset "utf-8";
+
+/**
+ * このファイルでは、収集日ページの色を設定しています。
+ * 分別区分IDを変更または追加した場合は、"2. カレンダーの凡例"を修正または追記する必要があります。
+ *
+ * Index:
+ *  1. 地区選択ボタン
+ *  2. カレンダーの凡例
+ *  3. カレンダー
+ *  4. 分別方法ポップアップ
+ */
+
+
+/**************************
+    1. 地区選択ボタン
+**************************/
+
+/* 地区選択ボタン */
+#calendar-area a {
+    color: #391;
+    font-size: 20px;
+    border: 2px solid #391;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, .2);
+    background-color: #efc;
+    padding: 5px 15px;
+}
+
+/* 地区選択ボタンの説明文 */
+#calendar-area:before {
+    content: "ボタンをクリックして地区を変更できます";
+    display: block;
+    margin: 0 0 5px;
+    font-size: small;
+    color: #381;
+}
+
+
+/**************************
+    2. カレンダーの凡例
+**************************/
+
+/* 色のサイズ */
+#calendar-legend .sort-color {
+    width: 1.2em;
+    height: 1.2em;
+    margin: 0 5px 0;
+    border-radius: 3px;
+    vertical-align: top;
+}
+
+/**
+ * === NOTE ===
+ * 「～収集日の色」について、CSSクラス[.sort-XXX]の"XXX"部分は、分別データのIDと対応しています。
+ * 分別データのIDを変更した場合は、"XXX"部分を対応するIDに書き換えてください。
+ * 
+ * また、以下で設定される凡例の色を指定すると、カレンダーの日付の色にも同じ色が適用されます。
+ * カレンダーの日付に違う色を指定する場合は、「3. カレンダー」のスタイルを指定してください。
+ */
+
+/* 可燃ごみ収集日の色 */
+#calendar-legend .sort-burn .sort-color,
+.mycalendar-box.sort-burn {
+    background-color: #fab;
+}
+/* 不燃ごみ収集日の色 */
+#calendar-legend .sort-nonburn .sort-color,
+.mycalendar-box.sort-nonburn {
+    background-color: #af7;
+}
+/* 資源ごみ収集日の色 */
+#calendar-legend .sort-recycle .sort-color,
+.mycalendar-box.sort-recycle {
+    background-color: #acf;
+}
+
+/* テキストの書式 */
+#calendar-legend .sort-text {
+    margin-right: .5em;
+}
+#calendar-legend .sort-burn .sort-text {
+}
+#calendar-legend .sort-nonburn .sort-text {
+}
+#calendar-legend .sort-recycle .sort-text {
+}
+/* 画面の幅が400px以上の場合 */
+@media (min-width: 400px) {
+    #calendar-legend {
+        font-size: medium;
+    }
+}
+
+
+/**************************
+    3. カレンダー
+**************************/
+
+/* カレンダーの枠線 */
+#calendar-canvas {
+    background-color: #f7f7f7;
+    border-color: #ccc;
+    border-style: solid;
+    border-width: 1px;
+}
+
+/* 曜日ヘッダーの書式 */
+.mycalendar-header {
+    line-height: 1.5em;
+    background-color: #eee;
+}
+/* 日曜の色 */
+.mycalendar-header[data-cal-day='0'] {
+    color: #c55;
+}
+/* 土曜の色 */
+.mycalendar-header[data-cal-day='6'] {
+    color: #55b;
+}
+
+/* 日付ボックスの書式 */
+.mycalendar-box {
+    line-height: 1.8em;
+    font-size: large;
+    background-color: #f7f7f7;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, .2);
+}
+/* 画面の幅が400px以上の場合 */
+@media (min-width: 400px) {
+    .mycalendar-box {
+        font-size: 20px;
+        line-height: 45px;
+    }
+}
+/* 日曜の色 */
+.mycalendar-box[data-cal-day='0'] {
+    color: #c55;
+    background-color: #ddd;
+}
+/* 土曜の色 */
+.mycalendar-box[data-cal-day='6'] {
+    color: #55b;
+    background-color: #ddd;
+}
+
+/**
+ * === NOTE ===
+ * 「～収集日の色」設定は、凡例とカレンダーで別の色を指定する場合に使用してください。
+ * 使用する場合、分別データのIDを変更している場合は、[.sort-XXX]の"XXX"部分を対応する
+ * IDに書き換える必要があります。
+ */
+
+/* 可燃ごみ収集日の色 */
+.mycalendar-box.sort-burn {
+}
+/* 不燃ごみ収集日の色 */
+.mycalendar-box.sort-nonburn {
+}
+/* 資源ごみ収集日の色 */
+.mycalendar-box.sort-recycle {
+}
+
+/* 今日の日付の書式 */
+.mycalendar-today {
+    color: #333;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+/**************************
+  　4. 分別方法ポップアップ
+**************************/
+
+/**
+ * === NOTE ===
+ * 分別方法ポップアップの内容は、すべて index.html に記述されています。
+ * index.html 内の該当箇所と、以下のスタイルを変更することで、表示内容は
+ * 自由に変更できます。
+ */
+
+/* ヘッダーの色 */
+#sort-desc-popup .ui-header {
+    background-color: #5a1;
+    border-bottom: none;
+    box-shadow: 0 5px 7px 0 rgba(0, 0, 0, .2);
+}
+
+/* ごみの品目名の書式（ヘッダー） */
+#sort-desc-popup .ui-header h2 {
+    font-size: large;
+    padding: .7em 40px .7em 1em;
+    color: #fff;
+    text-shadow: none;
+}
+
+/* 閉じるボタンの位置と画像 */
+#sort-desc-popup-close {
+    position: absolute;
+    top: 10px;
+    right: 7px;
+    background: url("../images/delete_white.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 16px;
+    background-color: #371;
+}
+
+/* セクションタイトルの書式 */
+#sort-desc-burn,
+#sort-desc-nonburn,
+#sort-desc-recycle,
+#sort-desc-incapable {
+    margin: 1.5em 0 .5em;
+    padding: 5px 12px;
+    color: #222;
+    font-size: large;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.2);
+    border-radius: 3px;
+}
+#sort-desc-burn {
+    margin-top: 0;
+}
+/* 可燃ごみの色 */
+#sort-desc-burn {
+    background-color: #fab;
+}
+/* 不燃ごみの色 */
+#sort-desc-nonburn {
+    background-color: #af7;
+}
+/* 資源ごみの色 */
+#sort-desc-recycle {
+    background-color: #acf;
+}
+/* 収集不可の色 */
+#sort-desc-incapable {
+    background-color: #c9f;
+}
+
+/* コンテンツの書式 */
+#sort-desc-popup p {
+    font-size: small;
+    margin: 1em 7px;
+}
+#sort-desc-popup ul {
+    padding: 0 0 0 20px;
+    margin: 1em 7px;
+}
+#sort-desc-popup ul li {
+    font-size: small;
+    padding: 0;
+    margin: 7px 0;
+}
+
+/* リストで確認ボタンの書式 */
+#sort-desc-popup a.apply-sort-filter {
+    display: block;
+    font-size: small;
+    color: #333;
+    text-align: center;
+    text-decoration: none;
+    width: 17em;
+    margin: 14px auto;
+    padding: 7px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: #f5f5f5;
+    box-shadow: 1px 1px 2px 0 rgba(0,0,0,.2);
+}
+#sort-desc-popup a.apply-sort-filter:hover {
+    background-color: #e5e5e5;
+}
+
+/* 画面の幅が400px以上の場合 */
+@media (min-width: 400px) {
+    #sort-desc-popup p,
+    #sort-desc-popup ul li,
+    #sort-desc-popup a.apply-sort-filter {
+        font-size: medium;
+    }
+}

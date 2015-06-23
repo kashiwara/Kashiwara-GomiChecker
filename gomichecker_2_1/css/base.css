@@ -1,0 +1,505 @@
+@charset "utf-8";
+
+/**
+ * このファイルでは、各ページの構造的なスタイルを設定しています。
+ * ページのレイアウトを変更する場合は、このファイル内の該当箇所を修正してください。
+ */
+
+
+/*****************************
+        jqm widget
+*****************************/
+
+/* Page widget. */
+.ui-page {
+    min-width: 280px;
+    height: 100%;
+    background-color: #fcfcfc;
+}
+
+/* Listview widget. */
+.ui-listview {
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+}
+.ui-listview li,
+.ui-listview li a {
+
+}
+
+/* Panel widget. */
+.ui-panel {
+    height: 100%;
+}
+.ui-panel-inner {
+    height: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.ui-panel ul.ui-listview {
+    margin-top: 0 ;
+    margin-bottom: 0;
+}
+
+/* Overlay theme. */
+.ui-overlay-c {
+    background-color: #446;
+}
+
+/******************************
+           Common
+******************************/
+
+/* Page Header. */
+.ui-page > .ui-header {
+    height: 75px;
+    border: none;
+    z-index: 1000;
+}
+.header-top {
+    height: 38px;
+}
+
+/* Circle button. */
+.my-btn {
+    display: block;
+    height: 28px;
+    width: 28px;
+    background-size: 18px;
+    border-radius: 20px;
+}
+
+/* Info button. */
+.header-info-btn {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    background: url("../images/info_white.png") no-repeat 50% 50%;
+    background-size: 18px;
+}
+
+/* Page content. */
+.my-content {
+    position: absolute;
+    top: 75px;
+    bottom: 0px;
+    width: 100%;
+    overflow: auto;
+}
+.my-content-inner {
+    height: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Navigation menu. */
+.navmenu {
+    height: 37px;
+}
+.navmenu.ui-grid-b a {
+    display: block;
+    font-size: medium;
+    line-height: 37px;
+    text-align: center;
+    text-decoration: none;
+}
+.navmenu.ui-grid-b a.navmenu-active {
+}
+
+/****************************
+        Waste page
+ ***************************/
+/* Content. */
+#waste-page .my-content-inner {
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+}
+
+/* Filter of waste list. */
+#waste-filter-container {
+    border-bottom: 1px solid #ddd;
+    background-color: #ddd;
+    height: 2.2em;
+}
+#waste-filter-container .ui-input-search {
+    height: 100%;
+    width: 50%;
+    max-width: 280px;
+    margin: 0 auto;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+#waste-filter-container .ui-input-search:after {
+    content: "";
+    position: absolute;
+    top: 14px;
+    left: -30px;
+    opacity: 1;
+    background-image: url(../images/search.png);
+    background-repeat: no-repeat;
+    background-size: 24px;
+    height: 24px;
+    width: 24px;
+}
+#waste-filter {
+    margin: 0;
+    padding: 4px 7px;
+}
+
+/* Waste list. */
+#waste-list {
+    border-top: 1px solid #ddd;
+    position: absolute;
+    top: 2.2em;
+    bottom: 0;
+    width: 100%;
+    max-width: 900px;
+}
+#waste-list li:first-child a {
+    border-top: none;
+}
+#waste-list h2 {
+    padding-right: 4px;
+}
+#waste-list .waste-comment {
+    padding-left: 10px;
+}
+#waste-list .waste-sort {
+    display: inline-block;
+    padding: 3px;
+    margin: 0 2px 0 0;
+    font-weight: bold;
+}
+#waste-list .waste-link {
+    position: absolute;
+    top: 12px;
+    right: 8px;
+}
+#waste-list .waste-link img {
+    height: 16px;
+}
+
+/* Waste detail popup. */
+#waste-popup .ui-header {
+    margin: 0;
+}
+#waste-popup-detail {
+    padding: 0 7px;
+    overflow: auto;
+}
+
+/****************************
+       Calendar page
+****************************/
+/* Area text. */
+#calendar-area {
+    padding: 10px 0px;
+    text-align: center;
+}
+#calendar-area a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+/* Date of calendar. */
+#calendar-header {
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+}
+#calendar-date {
+    display: inline-block;
+    width: 7em;
+    font-weight: bold;
+    vertical-align: middle;
+    margin: 9px 1em 0;
+}
+#calendar-header .ui-btn {
+    margin: 0;
+    box-shadow: none;
+}
+
+/* Legend of calendar date color. */
+#calendar-legend {
+    font-size: small;
+    width: 98%;
+    margin: .7em auto .3em;
+}
+#calendar-legend > div {
+    display: inline-block;
+    margin-left: .7em;
+}
+#calendar-legend > div:first-child {
+    margin-left: 0;
+}
+#calendar-legend span {
+    display: inline-block;
+}
+
+/* Calendar. */
+.mycalendar:after {
+    clear: both;
+    content: "";
+    display: block;
+    height: 1px;
+}
+.mycalendar-header-container,
+.mycalendar-box-container {
+    float: left;
+    width: 14.28%;
+}
+.mycalendar-header,
+.mycalendar-box {
+    margin: 2px 2px;
+    text-align: center;
+}
+
+/* Area selection popup. */
+#area-popup {
+    background-color: #ddd;
+}
+
+/* Filter of Area list. */
+#area-filter-container {
+    background-color: #e7e7e7;
+    height: 2.2em;
+}
+#area-filter-container .ui-input-search {
+    margin: 0 0 0 38px;
+    box-shadow: none;
+    border-width: 0 0 0 1px;
+    border-radius: 0;
+}
+#area-filter-container .ui-input-search:after {
+    content: "";
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    top: 14px;
+    left: -30px;
+    background-image: url(../images/search.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    opacity: 1;
+}
+#area-filter {
+    margin: 0;
+    padding: 4px 7px;
+}
+
+/* Area list. */
+#area-list {
+    border-top: 1px solid #ccc;
+    position: absolute;
+    top: 2.2em;
+    bottom: 0;
+    height: auto;
+    width: 100%;
+}
+#area-list li:first-child a {
+    border-top: none;
+}
+
+/* Sort popup switch. */
+.sort-desc-open {
+    cursor: pointer;
+}
+
+/* Sort popup. */
+#sort-desc-popup {
+    border: none;
+    max-width: 670px;
+}
+#sort-desc-popup .ui-header {
+    height: 48px;
+}
+#sort-desc-popup .ui-header h2 {
+    margin: 0;
+}
+#sort-desc-close {
+    box-shadow: none;
+}
+#sort-desc-popup .ui-content {
+    position: absolute;
+    top: 48px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+/*****************************
+       Station page
+*****************************/
+/* Category filter. */
+#station-category {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    width: 260px;
+    margin-left: -125px;
+}
+#station-category .ui-select {
+    margin: 0;
+}
+#station-category .ui-btn {
+}
+#station-category .ui-btn:hover {
+    background-color: #f7f7f7;
+}
+
+/* GoogleMap. */
+#map-canvas {
+    height: 100%;
+    width: 100%;
+}
+
+/* Panel of station marker. */
+#station-marker-panel {
+    height: 100%;
+    width: 80%;
+    z-index: 2500;
+    background-color: #bbb;
+    -webkit-transform: translate3d(-100%,0,0);
+    -moz-transform: translate3d(-100%,0,0);
+    transform: translate3d(-100%,0,0);
+}
+#station-marker-panel.ui-panel-open {
+    -webkit-transform: translate3d(0,0,0);
+    -moz-transform: none;
+    transform: translate3d(0,0,0);
+}
+
+/* Marker list in panel. */
+#station-marker-list {
+    height: 100%;
+}
+
+/* Marker panel open switch. */
+#station-marker-panel-btn {
+    position: absolute;
+    left: 0;
+    top: 45%;
+    width: 30px;
+    height: 45px;
+    background-color: rgba(0, 0, 0, .8);
+    background-image: url("../images/list.png");
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position: 4px 50%;
+    border-radius: 0 15px 15px 0;
+}
+
+/* InfoWindow */
+#info-window-content {
+}
+.info-window-name {
+    font-size: large;
+    margin: 0 0 7px;
+}
+.info-window-address,
+.info-window-tel {
+
+}
+.info-window-comment {
+    margin: 7px 0 0;
+}
+
+/****************************
+       Info page
+****************************/
+#info-page .ui-header {
+    height: 38px;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, .2);
+}
+
+/* Page content. */
+#info-page .my-content {
+    top: 38px;
+}
+#info-page .my-content-inner {
+    padding: 0 14px;
+}
+
+/* Article Header. */
+#info-page h2 {
+    margin: 0;
+    padding-top: 1.5rem;
+}
+
+/* タブレット以上の画面サイズ */
+@media (min-width: 800px) {
+
+    /******************************
+            Calendar page
+    ******************************/
+    /* Calendar. */
+    #calendar-canvas {
+        box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, .2);
+    }
+
+    /******************************
+            Station page
+    ******************************/
+    /* GoogleMap. */ 
+    #map-canvas {
+        width: 72%;
+        float: right;
+    }
+
+    /* Category filter. */
+    #station-category {
+        position: relative;
+        top: 0;
+        left: 0;
+        margin-left: 0;
+        width: 28%;
+        border: 1px solid #ddd;
+    }
+    #station-category .ui-select {
+        border: none;
+    }
+    #station-category .ui-btn {
+        border: none;
+        height: 100%;
+        box-shadow: none;
+    }
+
+    /* Panel of station marker. */
+    #station-marker-panel {
+        visibility: visible;
+        position: absolute;
+        clip: initial;
+        width: 28%;
+        background: none;
+        -webkit-transition: none !important;
+        -moz-transition: none !important;
+        transition: none !important;
+        -webkit-transform: none !important;
+        -moz-transform: none !important;
+        transform: none !important;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        z-index: 1;
+    }
+
+    /* Marker list in panel. */
+    #station-marker-list {
+        position: absolute;
+        top: 128px;
+        bottom: 0;
+        width: 100%;
+        height: auto;
+    }
+    #station-marker-list li:first-child a {
+        border-top: none;
+    }
+    
+    /* Marker panel open switch. */
+    #station-marker-panel-btn {
+        display: none;
+    }
+}

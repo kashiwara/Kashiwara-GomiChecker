@@ -1,0 +1,151 @@
+@charset "utf-8";
+
+/**
+ * このファイルでは、ごみの種類ページの色を設定しています。
+ * 分別区分IDを変更または追加した場合は、"2. ごみの種類リスト"を修正または追記する必要があります。
+ *
+ * Index:
+ *  1. 検索ボックス
+ *  2. ごみの種類リスト
+ *  3. ごみの詳細ポップアップ
+ */
+
+
+/*************************
+    1. 検索ボックス
+*************************/
+
+/* 背景色 */
+#waste-filter-container {
+    background-color: #ddd;
+}
+
+
+/*************************
+    2. ごみの種類リスト
+*************************/
+
+/* 項目の色 */
+#waste-list li a {
+    background-color: ;
+    border-color: ;
+}
+
+/* 品目名の色 */
+#waste-list h2 {
+    color: ;
+}
+
+/* 説明文の色 */
+#waste-list .waste-comment {
+    color: #888;
+}
+
+/* 分別アイコンの枠線 */
+#waste-list .waste-sort {
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+}
+
+/**
+ * === NOTE ===
+ * 「分別アイコンの色」について、[.sort-XXX]の"XXX"部分は、分別データのIDと対応しています。
+ * 分別データのIDを変更した場合は、"XXX"部分を対応するIDに書き換えてください。
+ */
+
+/* 分別アイコンの色 */
+/* 可燃 [.sort-burn] */
+#waste-list .sort-burn {
+    border-color: #f5a;
+    color: #f5a;
+}
+/* 不燃 [.sort-nonburn] */
+#waste-list .sort-nonburn {
+    border-color: #2b2;
+    color: #2b2;
+}
+/* 資源 [.sort-recycle] */
+#waste-list .sort-recycle {
+    border-color: #46f;
+    color: #46f;
+}
+/* 収集不可 [.sort-incapable] */
+#waste-list .sort-incapable {
+    border-color: #a0e;
+    color: #a0e;
+}
+
+/* リサイクルアイコンの色 */
+#waste-list .waste-recycle {
+    border-color: #e80;
+    color: #e80;
+}
+
+
+/*************************
+    3. ごみの詳細ポップアップ
+*************************/
+
+/* ポップアップの枠線 */
+#waste-popup {
+    border: none;
+}
+
+/* ヘッダーの色 */
+#waste-popup .ui-header {
+    background-color: #5a1;
+    border-bottom: none;
+    box-shadow: 0 5px 7px 0 rgba(0, 0, 0, .2);
+}
+
+/* ごみの品目名の書式（ヘッダー） */
+#waste-popup-name {
+    font-weight: bold;
+    font-size: large;
+    padding: .7em 40px .7em 1em;
+    color: #fff;
+    text-shadow: none;
+}
+
+/* 閉じるボタンの画像と色 */
+#waste-popup-close {
+    position: absolute;
+    top: 10px;
+    right: 7px;
+    background-image: url("../images/delete_white.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 16px;
+    background-color: #371;
+}
+
+/* セクションタイトルの書式 */
+#waste-popup .my-head {
+    margin: 1.5em 0 .5em;
+    padding-left: 5px;
+    color: #381;
+    font-size: large;
+    font-weight: bold;
+    text-shadow: none;
+    border-bottom: 1px solid #381;
+}
+#waste-popup .my-head:first-child {
+    margin-top: 1em;
+}
+
+/* 注意事項、リサイクルの方法、関連リンクの書式 */
+#waste-popup-detail .waste-comment,
+#waste-popup-detail .waste-recycle,
+#waste-popup-detail .waste-link {
+    padding-left: 7px;
+    margin-bottom: 1em;
+}
+
+/* 関連リンクの書式 */
+#waste-popup-detail .waste-link a {
+    display: block;
+    padding: 3px 0 3px 20px;
+    text-decoration: none;
+    background: url("../images/external_link_marker.png") no-repeat center left;
+}

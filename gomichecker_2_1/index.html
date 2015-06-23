@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<title>かしわらゴミチェッカー</title>
+
+	<!-- favicon -->
+	<link rel="shortcut icon" href="favicon.ico" />
+
+	<!-- app icon -->
+	<link rel="apple-touch-icon" href="icon.png"/>
+
+	<!-- jQuery CDN -->
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+	<!-- google maps API -->
+	<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=FALSE"></script>
+
+	<!-- ゴミチェッカー -->
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/commoncolor.css">
+	<link rel="stylesheet" href="css/wastepage.css">
+	<link rel="stylesheet" href="css/calendarpage.css">
+	<link rel="stylesheet" href="css/stationpage.css">
+	<link rel="stylesheet" href="css/infopage.css">
+	<script src="js/gomichecker.js"></script>
+	<script src="js/main.js"></script>
+
+	<!-- Google analytics -->
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-45494850-1', 'city.kashiwara.osaka.jp');
+		ga('send', 'pageview');
+	</script>
+    
+</head>
+<body>
+    
+<!-- ごみ種類ページ -->
+<div data-role="page" id="waste-page" data-title="柏原市ゴミチェッカー">
+
+	<!-- ヘッダー -->
+	<div data-role="header">
+		<div class="header-top">
+			<a href="#info-page" class="header-info-btn my-btn" title="お知らせページへ"></a>
+		</div>
+
+		<!-- ナビメニュー -->
+		<div class="ui-grid-b navmenu">
+			<div class="ui-block-a"><a href="#waste-page" class="navmenu-active">ごみの種類</a></div>
+			<div class="ui-block-b"><a href="#calendar-page">収集日</a></div>
+			<div class="ui-block-c"><a href="#station-page">拠点回収</a></div>
+		</div>
+
+	</div>
+
+	<!-- ページコンテンツ-->
+	<div role="main" class="my-content">
+		<div class="my-content-inner">
+
+			<!-- フィルター -->
+			<div id="waste-filter-container">
+				<input id="waste-filter" data-type="search" placeholder="検索...">
+			</div>
+
+			<!-- リスト -->
+			<ul data-role="listview" class="my-scroll-list" data-filter="true" data-input="#waste-filter" id="waste-list"></ul>
+
+		</div>
+	</div>
+
+
+	<!-- 詳細ポップアップ -->
+	<div id="waste-popup" data-role="popup" data-overlay-theme="c" data-position-to="#waste .page-content" data-transition="none" data-history="false" data-shadow="false">
+
+		<!-- ごみ名称 -->
+		<div data-role="header">
+			<div>
+				<div id="waste-popup-name"></div>
+				<a href="" id="waste-popup-close" class="my-btn"></a>
+			</div>
+		</div>
+
+		<!-- 詳細 -->
+		<div role="main" id="waste-popup-detail"></div>
+		
+	</div>
+
+</div>
+
+<!-- 収集日ページ -->
+<div data-role="page" id="calendar-page">
+
+	<!-- ヘッダー -->
+	<div data-role="header">
+		<div class="header-top">
+			<a href="#info-page" class="header-info-btn my-btn"></a>
+		</div>
+		<div class="ui-grid-b navmenu">
+			<div class="ui-block-a"><a href="#waste-page">ごみの種類</a></div>
+			<div class="ui-block-b"><a href="#calendar-page" class="navmenu-active">収集日</a></div>
+			<div class="ui-block-c"><a href="#station-page">拠点回収</a></div>
+		</div>
+	</div>
+
+	<!-- ページコンテンツ-->
+	<div role="main" class="my-content">
+		<div class="my-content-inner">
+
+			<!-- 地区名 -->
+			<div id="calendar-area"><a href="" id="calendar-area-btn">クリックして地区を選択</a></div>
+
+			<!-- カレンダーヘッダー -->
+			<div id="calendar-header">
+				<a href="" id="calendar-prev-btn" class="ui-btn ui-btn-icon-notext ui-icon-carat-l ui-nodisc-icon ui-alt-icon ui-btn-inline"></a>
+				<span id="calendar-date"></span>
+				<a href="" id="calendar-next-btn" class="ui-btn ui-btn-icon-notext ui-icon-carat-r ui-nodisc-icon ui-alt-icon ui-btn-inline"></a>
+			</div>
+
+			<!-- 凡例 -->
+			<div id="calendar-legend"></div>
+
+			<!-- カレンダー -->
+			<div id="calendar-canvas"></div>
+	
+		</div>
+	</div>
+
+	<!-- 地区選択ポップアップ -->
+	<div data-role="popup" id="area-popup" data-overlay-theme="c" data-history="false">
+
+		<!-- フィルター -->
+		<div id="area-filter-container">
+			<input id="area-filter" data-type="search" placeholder="検索...">
+		</div>
+
+		<!-- リスト -->
+		<ul data-role="listview" id="area-list" class="my-scroll-list" data-filter="true" data-input="#area-filter"></ul>
+
+	</div>
+
+	<!-- 分別方法ポップアップ -->
+	<div id="sort-desc-popup" data-role="popup" data-overlay-theme="c" data-history="false">
+		<div data-role="header">
+			<h2>ごみの分別方法</h2>
+			<div><a href="" id="sort-desc-popup-close" class="my-btn" data-rel="back"></a></div>
+		</div>
+		<div role="main" class="ui-content">
+			
+			<h3 id="sort-desc-burn">可燃ごみ</h3>
+            <p>生ごみ、紙類、プラスチック等などを回収します。木製の机やタンスなど大型のものでも、1点であれば無料で回収します（大きさによっては有料になる場合があります）。</p>
+            <ul class="sort-desc-list">
+	            <li>台所ごみは充分に水切りをしてから出してください</li>
+	            <li>紙おむつは汚物を取り除き新聞紙に包んでからポリ袋に入れて下さい</li>
+	            <li>てんぷら油は新聞紙などに吸い取らせてください</li>
+	            <li>木製の家具など、こわせるものはこわしてから出してください</li>
+            </ul>
+            <a href="#" class="apply-sort-filter" data-filter-text="可燃">可燃ごみを確認する</a>
+            
+            <h3 id="sort-desc-nonburn">不燃ごみ</h3>
+            <p>陶磁器類、ガラス類、金属類、家電類（家電リサイクル対象製品とパソコン以外）などを回収します。資源ごみ以外のびん・カンは不燃ごみになります。</p>
+            <ul class="sort-desc-list">
+	            <li>刃物・ガラス類などは、紙などに包み「キケン」と表示してください</li>
+	            <li>石油ストーブは必ず油を抜いて電池を外して出してください</li>
+            </ul>
+            <a href="#" class="apply-sort-filter" data-filter-text="不燃">不燃ごみを確認する</a>
+            
+            <h3 id="sort-desc-recycle">資源ごみ</h3>
+            <p>飲料用のびん・カンと、食用のびん、スプレー缶・カセット式ボンベ缶を回収します。</p>
+            <ul class="sort-desc-list">
+	            <li>酒びん・ビールびんは販売店で引き取ってもらいましょう</li>
+	            <li><b>スプレー缶・カセット式ボンベ缶は必ず穴をあけてください</b></li>
+	            <li>びん・カンは洗って出してください</li>
+            </ul>
+            <a href="#" class="apply-sort-filter" data-filter-text="資源">資源ごみを確認する</a>
+
+            <h3 id="sort-desc-incapable">収集できないごみ</h3>
+            <p>危険物、医療廃棄物、薬品、単車、タイヤ、カワラ、レンガ、ブロック、石、土、砂、耐火金庫など。</p>
+            <p>専門業者または購入先へ処理を依頼してください。</p>
+            <a href="#" class="apply-sort-filter" data-filter-text="収集不可">収集できないごみを確認する</a>
+
+		</div>
+	</div>
+
+</div>
+
+<!-- 収集拠点ページ -->
+<div id="station-page" data-role="page">
+
+	<!-- ヘッダー -->
+	<div data-role="header">
+		<div class="header-top">
+			<a href="#info-page" class="header-info-btn my-btn"></a>
+		</div>
+        <div class="ui-grid-b navmenu">
+            <div class="ui-block-a"><a href="#waste-page">ごみの種類</a></div>
+            <div class="ui-block-b"><a href="#calendar-page">収集日</a></div>
+            <div class="ui-block-c"><a href="#station-page" class="navmenu-active">拠点回収</a></div>
+        </div>
+	</div>
+
+	<!-- ページコンテンツ -->
+	<div role="main" class="my-content">
+	    
+		<!-- GoogleMap -->
+		<div id="map-canvas"></div>
+
+		<!-- パネルを開くボタン -->
+		<a id="station-marker-panel-btn" title="回収拠点の一覧を見る"></a>
+
+		<!-- カテゴリーフィルター -->
+		<div id="station-category" class="ui-nodisc-icon ui-alt-icon">
+			<select name="station-category-filter" id="station-category-filter"></select>
+		</div>
+
+
+	</div>
+
+	<!-- マーカーパネル -->
+	<div id="station-marker-panel" data-role="panel" data-display="overlay">
+
+		<!-- マーカーリスト -->
+		<ul id="station-marker-list" data-role="listview" data-filter="true" data-input="#station-category-filter"></ul>
+
+	</div>
+
+
+</div>
+
+<!-- Infoページ -->
+<div id="info-page" data-role="page">
+
+	<!-- ヘッダー -->
+	<div data-role="header">
+		<div class="header-top">
+			<a href="" data-rel="back" class="header-back-btn my-btn" title=""></a>
+		</div>
+	</div>
+
+	<!-- ページコンテンツ -->
+	<div role="main" class="my-content">
+		<div class="my-content-inner">
+		
+			<h2>かしわらゴミチェッカー<span class="info-vertion">version 2.1</span></h2>
+			<p>"かしわらゴミチェッカー"は柏原市が提供しているサービスです。</p>
+			<p>詳しくは<a href="/docs/2014112600063/" data-ajax="false">柏原市ゴミ分別アプリのページ</a>をご覧ください。</p>
+		
+		</div>
+	</div>
+
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,70 @@
+@charset "utf-8";
+
+/**
+ * このファイルでは、各ページ共通の色と背景を設定しています。
+ *
+ * Index:
+ *  1. ヘッダー
+ *  2. ナビメニュー
+ *  3. コンテンツ
+ *  
+ */
+
+
+/*************************
+    1. ヘッダー
+*************************/
+
+/* ロゴの画像と背景色 */
+.header-top {
+    background-color: #c7ee77;
+    background-image: url("../images/logo.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: auto 30px;
+}
+/* 画面の幅が400px以上の場合のロゴ画像 */
+@media (min-width: 400px) {
+    .header-top {
+        background-image: url("../images/logo_large.png");
+    }
+}
+
+/* ヘッダーの(i)ボタンのアイコン */
+.header-info-btn {
+    background-image: url("../images/info_white.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 18px;
+    background-color: #391;
+}
+
+
+/*************************
+    2. ナビメニュー
+*************************/
+
+/* デフォルトの項目の色 */
+.navmenu.ui-grid-b a {
+    color: #ad5;
+    text-shadow: none;
+    background-color: #7b2;
+    box-shadow: 0 35px 35px -15px rgba(0, 0, 0, .2) inset;
+}
+
+/* 選択中の項目の色 */
+.navmenu.ui-grid-b a.navmenu-active {
+    color: #fff;
+    box-shadow: none;
+}
+
+
+/*************************
+    3. コンテンツ
+*************************/
+
+/* コンテンツ部分の背景色 */
+.my-content {
+    background-color: #fafafa;
+}
+
