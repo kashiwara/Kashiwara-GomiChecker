@@ -1,0 +1,18 @@
+{
+	"burnable":{
+		"text":"可燃ごみ",
+		"shortText":"可燃"
+	},
+	"nonburnable":{
+		"text":"不燃ごみ",
+		"shortText":"不燃"
+	},
+	"recyclable":{
+		"text":"資源ごみ",
+		"shortText":"資源"
+	},
+	"uncollectible":{
+		"text":"収集できません",
+		"shortText":"不可"
+	}
+}

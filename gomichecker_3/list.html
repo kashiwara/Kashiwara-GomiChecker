@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="shortcut icon" href="/_common/themes/joruri/top/images/favicon.ico" />
+
+	<title>柏原市ごみ分別アプリ</title>
+
+
+	<link rel="stylesheet" href="css/widget.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media-query.css">
+	<script src="js/jquery-1.12.2.min.js"></script>
+	<script src="js/jquery.mobile.custom.min.js"></script>
+	<script src="js/widget.js"></script>
+	<script src="js/common.js"></script>
+	<script src="js/list.js"></script>
+
+	<!-- Google Material Icons -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+<body>
+
+	<div class="page-content">
+		<div class="page-header md-shadow-1">		
+			<div class="header-title">
+				<a class="open-sidebar md-btn-icon"><i class="material-icons">menu</i></a>
+				<h1>ごみの分別一覧</h1>
+			</div>
+
+			<!-- 品目リストフィルター -->
+			<div id="list-filter">
+				<label class="md-btn-flat" for="list-filter-input"><i class="material-icons">search</i></label>
+				<input type="text" id="list-filter-input" placeholder="検索" data-role="none">
+				<div class="clear-input md-hidden md-btn-flat"><i class="material-icons">clear</i></div>
+			</div>
+		</div>
+
+		<div class="page-body md-scrollable" role="main">
+
+			<!-- 五十音スクロール -->
+			<div id="kana-scroll">
+				<a class="md-current" data-head="あ">あ</a>
+				<a data-head="か">か</a>
+				<a data-head="さ">さ</a>
+				<a data-head="た">た</a>
+				<a data-head="な">な</a>
+				<a data-head="は">は</a>
+				<a data-head="ま">ま</a>
+				<a data-head="や">や</a>
+				<a data-head="ら">ら</a>
+				<a data-head="わ">わ</a>
+			</div>
+
+			<!-- 品目リスト -->
+			<ul id="sorting-list" class="md-list"></ul>
+		</div>
+		
+	</div>
+
+	<!-- 詳細ポップアップ -->
+	<div id="detail-popup" class="md-shadow-3"></div>
+
+	<!-- サイドバー -->
+	<div id="sidebar" class="md-shadow-4 md-scrollable">
+		<div class="sidebar-header">
+			<div class="sidebar-header-logo"><i class="material-icons">delete</i></div>
+			<h1>柏原市ごみチェッカー</h1>
+		</div>
+		<ul class="page-list md-list">
+			<li class="top"><a href="index.html"><i class="material-icons">home</i><span class="page-title">トップ</span></a></li>
+			<li class="list md-active"><a href="list.html"><i class="material-icons">view_list</i><span class="page-title">ごみの分別一覧</span></a></li>
+			<li class="calendar"><a href="calendar.html"><i class="material-icons">today</i><span class="page-title">収集日カレンダー</span></a></li>
+			<li class="place"><a href="place.html"><i class="material-icons">place</i><span class="page-title">リサイクル収集拠点</span></a></li>
+			<li class="md-divider"></li>
+			<li><a href="/"><i class="material-icons">home</i><span class="page-title">柏原市トップ</span></a></li>
+			<li><a href="/docs/2014112600063/"><i class="material-icons">help</i><span class="page-title">ヘルプ</span></a></li>
+		</ul>
+	</div>
+
+</body>
+</html>
