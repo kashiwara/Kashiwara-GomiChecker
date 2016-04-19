@@ -1,0 +1,311 @@
+[{
+	"id":37,
+	"name":"青谷",
+	"kana":"あおたに",
+	"schedule":"area10"
+},{
+	"id":45,
+	"name":"旭ヶ丘1丁目",
+	"kana":"あさひがおか",
+	"schedule":"area8"
+},{
+	"id":46,
+	"name":"旭ヶ丘2丁目",
+	"kana":"あさひがおか",
+	"schedule":"area9"
+},{
+	"id":47,
+	"name":"旭ヶ丘3丁目",
+	"kana":"あさひがおか",
+	"schedule":"area9"
+},{
+	"id":48,
+	"name":"旭ヶ丘4丁目",
+	"kana":"あさひがおか",
+	"schedule":"area8"
+},{
+	"id":35,
+	"name":"安堂町",
+	"kana":"あんどう",
+	"schedule":"area5"
+},{
+	"id":41,
+	"name":"石川町",
+	"kana":"いしかわ",
+	"schedule":"area10"
+},{
+	"id":12,
+	"name":"今町1丁目",
+	"kana":"いままち",
+	"schedule":"area4"
+},{
+	"id":13,
+	"name":"今町2丁目",
+	"kana":"いままち",
+	"schedule":"area4"
+},{
+	"id":44,
+	"name":"円明町",
+	"kana":"えんみょう",
+	"schedule":"area7"
+},{
+	"id":29,
+	"name":"大県1丁目",
+	"kana":"おおがた",
+	"schedule":"area6"
+},{
+	"id":30,
+	"name":"大県2丁目",
+	"kana":"おおがた",
+	"schedule":"area6"
+},{
+	"id":31,
+	"name":"大県3丁目",
+	"kana":"おおがた",
+	"schedule":"area6"
+},{
+	"id":32,
+	"name":"大県4丁目",
+	"kana":"おおがた",
+	"schedule":"area6"
+},{
+	"id":42,
+	"name":"片山町",
+	"kana":"かたやま",
+	"schedule":"area10"
+},{
+	"id":14,
+	"name":"上市1丁目",
+	"kana":"かみいち",
+	"schedule":"area6"
+},{
+	"id":15,
+	"name":"上市2丁目",
+	"kana":"かみいち",
+	"schedule":"area6"
+},{
+	"id":16,
+	"name":"上市3丁目",
+	"kana":"かみいち",
+	"schedule":"area6"
+},{
+	"id":17,
+	"name":"上市4丁目",
+	"kana":"かみいち",
+	"schedule":"area6"
+},{
+	"id":39,
+	"name":"雁多尾畑",
+	"kana":"かりんどおばた",
+	"schedule":"area10"
+},{
+	"id":21,
+	"name":"河原町",
+	"kana":"かわはら",
+	"schedule":"area2"
+},{
+	"id":18,
+	"name":"清州1丁目",
+	"kana":"きよす",
+	"schedule":"area2"
+},{
+	"id":19,
+	"name":"清州2丁目",
+	"kana":"きよす",
+	"schedule":"area2"
+},{
+	"id":58,
+	"name":"国分市場1丁目",
+	"kana":"こくぶいちば",
+	"schedule":"area8"
+},{
+	"id":59,
+	"name":"国分市場2丁目",
+	"kana":"こくぶいちば",
+	"schedule":"area8"
+},{
+	"id":49,
+	"name":"国分西1丁目",
+	"kana":"こくぶにし",
+	"schedule":"area10"
+},{
+	"id":50,
+	"name":"国分西2丁目",
+	"kana":"こくぶにし",
+	"schedule":"area10"
+},{
+	"id":60,
+	"name":"国分東条町",
+	"kana":"こくぶひがんじょ",
+	"schedule":"area9"
+},{
+	"id":51,
+	"name":"国分本町1丁目",
+	"kana":"こくぶほんまち",
+	"schedule":"area8"
+},{
+	"id":52,
+	"name":"国分本町2丁目",
+	"kana":"こくぶほんまち",
+	"schedule":"area9"
+},{
+	"id":53,
+	"name":"国分本町3丁目",
+	"kana":"こくぶほんまち",
+	"schedule":"area8"
+},{
+	"id":54,
+	"name":"国分本町4丁目",
+	"kana":"こくぶほんまち",
+	"schedule":"area8"
+},{
+	"id":55,
+	"name":"国分本町5丁目",
+	"kana":"こくぶほんまち",
+	"schedule":"area8"
+},{
+	"id":56,
+	"name":"国分本町6丁目",
+	"kana":"こくぶほんまち",
+	"schedule":"area8"
+},{
+	"id":57,
+	"name":"国分本町7丁目",
+	"kana":"こくぶほんまち",
+	"schedule":"area9"
+},{
+	"id":6,
+	"name":"大正1丁目",
+	"kana":"たいしょう",
+	"schedule":"area3"
+},{
+	"id":7,
+	"name":"大正2丁目",
+	"kana":"たいしょう",
+	"schedule":"area3"
+},{
+	"id":8,
+	"name":"大正3丁目",
+	"kana":"たいしょう",
+	"schedule":"area3"
+},{
+	"id":33,
+	"name":"太平寺1丁目",
+	"kana":"たいへいじ",
+	"schedule":"area2"
+},{
+	"id":34,
+	"name":"太平寺2丁目",
+	"kana":"たいへいじ",
+	"schedule":"area2"
+},{
+	"id":36,
+	"name":"高井田",
+	"kana":"たかいだ",
+	"schedule":"area1"
+},{
+	"id":61,
+	"name":"田辺1丁目",
+	"kana":"たなべ",
+	"schedule":"area8"
+},{
+	"id":62,
+	"name":"田辺2丁目",
+	"kana":"たなべ",
+	"schedule":"area8"
+},{
+	"id":43,
+	"name":"玉手町",
+	"kana":"たまて",
+	"schedule":"area7"
+},{
+	"id":38,
+	"name":"峠",
+	"kana":"とうげ",
+	"schedule":"area10"
+},{
+	"id":20,
+	"name":"堂島町",
+	"kana":"どうじま",
+	"schedule":"area2"
+},{
+	"id":27,
+	"name":"平野1丁目",
+	"kana":"ひらの",
+	"schedule":"area2"
+},{
+	"id":28,
+	"name":"平野2丁目",
+	"kana":"ひらの",
+	"schedule":"area2"
+},{
+	"id":9,
+	"name":"古町1丁目",
+	"kana":"ふるまち",
+	"schedule":"area3"
+},{
+	"id":10,
+	"name":"古町2丁目",
+	"kana":"ふるまち",
+	"schedule":"area3"
+},{
+	"id":11,
+	"name":"古町3丁目",
+	"kana":"ふるまち",
+	"schedule":"area3"
+},{
+	"id":22,
+	"name":"法善寺1丁目",
+	"kana":"ほうぜんじ",
+	"schedule":"area2"
+},{
+	"id":23,
+	"name":"法善寺2丁目",
+	"kana":"ほうぜんじ",
+	"schedule":"area2"
+},{
+	"id":24,
+	"name":"法善寺3丁目",
+	"kana":"ほうぜんじ",
+	"schedule":"area6"
+},{
+	"id":25,
+	"name":"法善寺4丁目",
+	"kana":"ほうぜんじ",
+	"schedule":"area6"
+},{
+	"id":1,
+	"name":"本郷1丁目",
+	"kana":"ほんごう",
+	"schedule":"area4"
+},{
+	"id":2,
+	"name":"本郷2丁目",
+	"kana":"ほんごう",
+	"schedule":"area4"
+},{
+	"id":3,
+	"name":"本郷3丁目",
+	"kana":"ほんごう",
+	"schedule":"area4"
+},{
+	"id":4,
+	"name":"本郷4丁目",
+	"kana":"ほんごう",
+	"schedule":"area4"
+},{
+	"id":5,
+	"name":"本郷5丁目",
+	"kana":"ほんごう",
+	"schedule":"area4"
+},{
+	"id":40,
+	"name":"本堂",
+	"kana":"ほんどう",
+	"schedule":"area10"
+},{
+	"id":26,
+	"name":"山ノ井町",
+	"kana":"やまのい",
+	"schedule":"area6"
+}]
