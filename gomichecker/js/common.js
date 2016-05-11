@@ -43,17 +43,8 @@ $.fixContentHeight = function() {
 
 $(function() {
 
-	var sidebar = widget.Sidebar.new('#sidebar');
+	var sidebar = new widget.Sidebar('#sidebar');
 
-
-	// ##########################################
-	// 
-	//  Message for IE
-	// 
-	// ##########################################
-	if (navigator.userAgent.match(/msie|trident/i)) {
-		alert('このページは Internet Explorer では正常に動作しません。\n他のブラウザーでご覧ください。');
-	}
 
 	// ##########################################
 	// 

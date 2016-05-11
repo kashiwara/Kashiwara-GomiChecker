@@ -224,7 +224,7 @@
 	// jQuery Ready
 	$(function() {
 		
-		detailPopup = widget.Popup.new('#detail-popup');
+		detailPopup = new widget.Popup('#detail-popup');
 
 		$list = $('#sorting-list');
 		$search = $('#list-filter');

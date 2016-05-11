@@ -120,8 +120,8 @@ var initMap;
 
 	$(function() {
 		// 変数をセット
-		categoryMenu = widget.Menu.new('#category-menu');
-		markerPopup = widget.Popup.new('#marker-popup');
+		categoryMenu = new widget.Menu('#category-menu');
+		markerPopup = new widget.Popup('#marker-popup');
 		$categoryList = $('#category-list');
 		$markerList = $('#marker-list');
 

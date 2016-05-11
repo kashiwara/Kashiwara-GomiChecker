@@ -1,0 +1,860 @@
+/* ##############################################
+
+ Theme: Material design
+
+ - Font size
+	large: 18px;
+	medium: 15px;
+	small:	12px;
+
+ - Border color
+    #e3e3e3
+ 
+
+############################################### */
+
+
+/* 要素
+---------------------------------------------- */
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+body * {
+	font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+	font-size: 15px;
+}
+a {
+	cursor: pointer;
+}
+
+*, *:after, *:before {
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
+
+/* List
+--------------------------------------------------------- */
+.md-list {
+	margin: 0;
+	padding: 8px 0;
+	list-style: none;
+}
+.md-list li {
+	color: #444;
+	padding: 0;
+	margin: 0;
+	position: relative;
+	transition: background-color 150ms;
+}
+.md-list li > a {
+	display: block;
+	color: inherit;
+	line-height: 16px;
+	padding: 16px;
+	text-decoration: none;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.md-list li > a:visited {
+	color: inherit;
+}
+.md-list .material-icons {
+	display: inline-block;
+	margin: -4px 16px -4px 0;
+}
+.md-list .text {
+}
+.md-list li:hover {
+	/*color: #222;*/
+	/*background-color: rgba(0,0,0,.04);*/
+}
+.md-list li:active {
+	color: #222;
+	background-color: rgba(0,0,0,.08);	
+}
+
+/* Active */
+.md-list > .md-active {
+	background-color: #eee;
+}
+
+/* Dense list */
+.md-list.md-dense {
+	padding: 4px 0;
+}
+.md-list.md-dense li > a {
+	padding: 12px 16px;
+}
+
+/* Divider */
+.md-list .md-divider {
+	display: block;
+	height: 0;
+	padding: 0;
+	margin: 8px 0;
+	border-bottom: 1px solid rgba(0,0,0,.12);
+}
+.md-list.md-dense .md-divider {
+	margin: 4px 0;
+}
+
+/* スクロール
+---------------------------------------------- */
+.md-scrollable {
+	overflow: auto;
+	-webkit-overflow-scrolling: touch;
+}
+.md-scrollable::-webkit-scrollbar {
+	width: 8px;
+	background-color: #e6e6e6;
+}
+.md-scrollable::-webkit-scrollbar-thumb {
+	background-color: #afafaf;
+}
+
+
+/* アイコン
+---------------------------------------------- */
+.material-icons {
+	overflow: hidden;
+}
+
+/* Button
+---------------------------------------------- */
+.md-btn-flat,
+a.md-btn-flat,
+.md-btn-raised,
+a.md-btn-raised {
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 16px;
+	padding: 10px 16px;
+	border-radius: 2px;
+	display: inline-block;
+	position: relative;
+	text-shadow: none;
+	transition: box-shadow 200ms ease;
+	text-align: center;
+	overflow: hidden;
+	vertical-align: middle;
+	cursor: pointer;
+	text-decoration: none;
+}
+/* Flat button */
+.md-btn-flat {
+}
+/* Raised button */
+.md-btn-raised {
+}
+/* Icon button */
+.md-btn-icon {
+	margin: -6px;
+	padding: 6px;
+	border-radius: 50%;
+	cursor: pointer;
+	transition: 100ms;
+}
+.md-btn-icon:hover {
+	opacity: 1;
+}
+.md-btn-icon:active {
+	opacity: 1;
+	background-color: rgba(0,0,0,.24);
+}
+/* Icons */
+.material-icons {
+	color: inherit;
+	text-shadow: none;
+	vertical-align: middle;
+}
+.md-btn-icon .material-icons {
+	font-size: 24px;
+	width: 24px;
+	height: 24px;
+}
+/* Circle */
+.md-btn-circle {
+	transition: 200ms;
+	cursor: pointer;
+}
+.md-btn-circle .material-icons {
+	opacity: .8;
+}
+.md-btn-circle:hover .material-icons {
+	opacity: .9;
+}
+.md-btn-circle:active .material-icons {
+	opacity: 1;
+}
+
+/* Shadow
+---------------------------------------------- */
+.md-shadow-none {
+	box-shadow: none;
+}
+.md-shadow-1,
+.md-btn-raised {
+	box-shadow: 0 1px 1px rgba(0,0,0,.18), 0 2px 6px rgba(0,0,0,.12);
+}
+.md-shadow-2,
+.md-btn-raised:active,
+.md-btn-circle {
+	box-shadow: 0 3px 5px rgba(0,0,0,.2), 0 3px 10px rgba(0,0,0,.12);
+}
+.md-shadow-3,
+.wg-dropdown.wg-open,
+.md-btn-circle:active {
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.24), 0 4px 16px rgba(0, 0, 0, 0.14);
+}
+.md-shadow-4,
+.md-btn-circle:active {
+	box-shadow: 0 5px 14px rgba(0, 0, 0, 0.24), 0 6px 24px rgba(0, 0, 0, 0.14);
+}
+.md-shadow-5 {
+	box-shadow: 0 6px 18px rgba(0, 0, 0, 0.24), 0 12px 36px rgba(0, 0, 0, 0.14);
+}
+
+
+/* Select
+--------------------------------------------------------- */
+/* Button */
+.md-select-btn {
+	color: #444;
+	height: 48px;
+	text-align: left;
+	position: relative;
+	cursor: pointer;
+	border-bottom: 1px solid #ccc;
+}
+.md-select-btn:hover {
+	color: #222;
+	background-color: #f7f7f7;
+}
+.md-select-btn:active {
+	background-color: #eee;
+}
+.md-select-value {
+	display: block;
+	font-size: 16px;
+	line-height: 1em;
+	margin: 0 72px;
+	padding: 16px 0;
+	text-shadow: none;
+	background-color: #fff;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2000;
+}
+.md-select-icon {
+	position: absolute;
+	top: 50%;
+	left: 16px;
+	margin-top: -12px;
+	color: inherit;
+}
+/* Menu */
+.wg-menu.md-select {
+	position: absolute;
+	top: 0;
+	left: 56px;
+	right: 56px;
+	margin-top: -8px;
+	background-color: #fff;
+	border-radius: 2px;
+	transform-origin: 0 8px;
+	transform: scale(1, 0);
+}
+.md-select > ul {
+	opacity: 0;
+	transition: 150ms;
+}
+.wg-menu.wg-open.md-select {
+	transform: scale(1);
+}
+.wg-open.md-select > ul {
+	opacity: 1;
+}
+
+/* Popup
+---------------------------------------------------- */
+.wg-popup {
+	transition: opacity 200ms;
+	transform: scale(1);
+	opacity: 0;
+}
+.wg-popup.wg-open {
+	opacity: 1;
+}
+.wg-popup .md-header {
+	padding: 16px 0;
+	border-bottom: 1px solid #ccc;
+}
+.wg-popup .md-header h1 {
+	margin: 0;
+	padding: 0 24px;
+}
+.wg-popup .md-body {
+}
+.wg-popup .md-list a {
+	padding-left: 24px;
+	padding-right: 24px;
+}
+.wg-popup .md-footer {
+	padding: 8px 16px;
+	text-align: right;
+	border-top: 1px solid #ccc;
+}
+.wg-popup .md-footer .close-popup {
+	color: #46f;
+	padding: 4px 12px;
+	display: inline-block;
+}
+
+/* サイドバー
+---------------------------------------------- */
+#sidebar {
+	background-color: #fff;
+	width: 260px;
+}
+#sidebar .sidebar-header {
+	color: #fff;
+	height: 48px;
+	background-color: #6b4;
+	text-shadow: none;
+}
+#sidebar .close-sidebar {
+	position: absolute;
+	top: 12px;
+	right: 16px;
+	color: #222;
+	opacity: .8;
+	transition: 200ms;
+}
+#sidebar .close-sidebar:hover,
+#sidebar .close-sidebar:active {
+	opacity: 1;
+}
+#sidebar .sidebar-header h1 {
+	font-size: 18px;
+	font-weight: normal;
+	margin: 0;
+	padding: 0 0 0 16px;
+	line-height: 48px;
+}
+#sidebar .page-list {
+	padding: 8px 0;
+}
+#sidebar .page-list .md-active a {
+	color: #46f;
+	background-color: #fff;	
+}
+
+
+/* ページメニュー
+---------------------------------------------- */
+#page-menu {
+	top: 16px;
+	right: 16px;
+	transform-origin: 100% 0; 
+	background-color: #fff;
+}
+
+
+/* ヘッダー
+---------------------------------------------- */
+.page-header {
+	color: #fff;
+	border: none;
+	background-color: #6b4;
+	position: relative;
+	z-index: 500;
+}
+.header-title {
+	color: #fff;
+	position: relative;
+	height: 48px;
+}
+.open-sidebar {
+	position: absolute;
+	left: 16px;
+	top: 12px;
+	opacity: .8;
+}
+.open-page-menu {
+	position: absolute;
+	right: 16px;
+	top: 12px;
+	opacity: .8;
+}
+a.open-page-menu.md-btn-icon,
+a.open-sidebar.md-btn-icon,
+a.open-page-menu.md-btn-icon:visited,
+a.open-sidebar.md-btn-icon:visited {
+	color: #fff;
+}
+.header-title h1 {
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 48px;
+	margin: 0 72px;
+	text-shadow: none;
+}
+.page-header .md-select-btn {
+	background-color: #fff;
+}
+
+/* コンテンツ
+---------------------------------------------- */
+.page-body {
+	position: relative;
+	z-index: 400;
+}
+
+
+/* 分別カラー
+---------------------------------------------- */
+/* 可燃 */
+.burnable {
+	color: #fff;
+	background-color: #f45;
+}
+/* 不燃 */
+.nonburnable {
+	color: #fff;
+	background-color: #58f;
+}
+/* 資源 */
+.recyclable {
+	color: #fff;
+	background-color: #392;
+}
+/* 収集不可 */
+.uncollectible {
+	color: #fff;
+	background-color: #d8e;
+}
+
+
+/* トップページ - index.html
+---------------------------------------------- */
+.top-logo {
+	text-align: center;
+	padding-top: 40px;
+}
+.top-logo .material-icons {
+	font-size: 120px;
+}
+.top-title {
+	font-size: 24px;
+	line-height: 24px;
+	font-weight: normal;
+	margin: 0;
+	padding-bottom: 40px;
+	text-shadow: none;
+	text-align: center;
+}
+
+.app-description {
+	margin: 16px;
+}
+.app-description h1 {
+	box-sizing: border-box;
+	font-weight: normal;
+	font-size: 40px;
+	height: 144px;
+	margin: -16px -16px 0;
+	padding: 48px 16px 0;
+	background-color: #6b4;
+	color: #fff;
+}
+.app-description h3 {
+	margin-top: 32px;
+	margin-bottom: 16px;
+	padding: 0;
+	position: relative;
+	padding-left: 40px;
+}
+.app-description a {
+	color: #35f;
+	font-weight: normal;
+	font-size: 18px;
+	text-decoration: none;
+}
+.app-description h3 .material-icons {
+	position: absolute;
+	left: 0;
+	color: #35f;
+}
+.app-description p + p {
+	margin-top: -1em;
+}
+
+
+
+
+/* リストページ
+---------------------------------------------- */
+
+/* 品目リストフィルター */
+#list-filter {
+	height: 48px;
+	padding: 0 72px;
+	background-color: #fff;
+	position: relative;
+}
+#list-filter label.md-btn-flat {
+	position: absolute;
+	top: 12px;
+	left: 16px;
+	height: 24px;
+	width: 24px;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+#list-filter .md-btn-flat .material-icons {
+	color: #888;
+}
+#list-filter-input {
+	width: 100%;
+	height: 100%;
+	font-size: 16px;
+	text-shadow: none;
+	margin: 0;
+	padding: 0;
+	line-height: 24px;
+	border: none;
+	background-color: transparent;
+	outline: none;
+}
+#list-filter-input::-webkit-input-placeholder {
+}
+#list-filter-input:-ms-input-placeholder {
+}
+#list-filter-input::-moz-placeholder {
+}
+#list-filter .clear-input {
+	position: absolute;
+	top: 12px;
+	right: 16px;
+	width: 24px;
+	height: 24px;
+	margin: 0;
+	padding: 0;
+	opacity: 1;
+	transition: opacity 200ms;
+}
+#list-filter .clear-input.md-hidden {
+	visibility: hidden;
+	opacity: 0;
+}
+
+/* 五十音インデックス */
+#kana-scroll {
+	position: fixed;
+	margin-top: 16px;
+	margin-left: 16px;
+	z-index: 1000;
+}
+#kana-scroll a {
+	color: #bbb;
+	display: block;
+	font-size: 15px;
+	width: 24px;
+	height: 24px;
+	line-height: 24px;
+	margin-bottom: 8px;
+	border-radius: 50%;
+	background-color: transparent;;
+	text-decoration: none;
+	text-align: center;
+	transition: 200ms;
+	position: relative;
+}
+#kana-scroll a:after {
+	content: "";
+	position: absolute;
+	left: -4px;
+	top: -4px;
+	width: 32px;
+	height: 32px;
+}
+#kana-scroll a.md-active {
+	color: #372;
+	background-color: transparent;;
+}
+#kana-scroll a.md-current {
+	color: #fff;
+	background-color: #372;
+}
+
+/* 分別リスト */
+#sorting-list {
+}
+#sorting-list li.md-hidden {
+	display: none;
+}
+#sorting-list li > a {
+	margin-left: 72px;
+	padding: 15px 16px 15px 0;
+	border-bottom: 1px solid rgba(0,0,0,.12);
+}
+#sorting-list .material-icons {
+	margin: 0;
+}
+#sorting-list .sort-icon {
+	position: absolute;
+	top: 50%;
+	width: 40px;
+	line-height: 20px;
+	color: #fff;
+	font-size: 11px;
+	font-weight: normal;
+	margin-top: 0px;
+	text-align: center;
+	border-radius: 2px;
+	padding-top: 0;
+}
+#sorting-list a h2,
+#sorting-list a .description {
+	line-height: 1.4rem;
+	font-weight: normal;
+	height: 1.4rem;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+#sorting-list a .description {
+	margin-left: 56px;
+}
+#sorting-list li h2 {
+	font-size: 100%;
+}
+#sorting-list .description {
+	font-size: 90%;
+	color: #999;
+}
+
+/* 詳細ポップアップ */
+#detail-popup {
+	background-color: #fff;
+	width: 90%;
+	max-width: 400px;
+}
+#detail-popup .wg-popup-inner {
+	min-height: 144px;
+}
+#detail-popup .md-header {
+	border-bottom: none;
+}
+#detail-popup .md-header h1 {
+	font-size: 110%;
+	font-weight: normal;
+	padding-right: 48px;
+}
+#detail-popup .close-popup {
+	position: absolute;
+	top: 16px;
+	right: 16px;
+}
+#detail-popup .md-body {
+	margin: 16px 0;
+}
+#detail-popup .md-body h2 {
+	color: #444;
+	margin: 16px 0 12px;
+	padding: 0 24px;
+}
+#detail-popup .md-body p {
+	font-size: 90%;
+	margin: 0 0 12px;
+	padding: 0 24px;
+}
+#detail-popup .md-list a {
+	color: #35f;
+	padding-left: 24px;
+}
+
+/* ----------------------------------------
+
+	カレンダーページ
+
+---------------------------------------- */
+
+/* 地区選択ボタン */
+#area-select {
+}
+
+/* カレンダーコントロール */
+.wg-calendar-control {
+	padding: 12px;
+}
+.wg-calendar-label {
+	font-size: 16px;
+}
+.wg-calendar-label > span {
+	font-size: inherit;
+	color: #444;
+	line-height: 1em;
+}
+.wg-calendar-next,
+.wg-calendar-prev {
+	position: absolute;
+	top: 50%;
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+	margin: -16px 0 0;
+	cursor: pointer;
+	transition: background 150ms;
+}
+.wg-calendar-prev {
+	left: 12px;
+}
+.wg-calendar-next {
+	right: 12px;
+}
+.wg-calendar-next:active,
+.wg-calendar-prev:active {
+	background-color: rgba(0,0,0,.24);
+}
+.wg-calendar-control .material-icons {
+	margin-top: 4px;
+}
+
+
+/* カレンダー */
+#schedule-calendar {
+	padding: 0 0 16px;
+}
+#schedule-calendar .wg-calendar-table {
+}
+#schedule-calendar .wg-calendar-table tr {
+	border-bottom: 1px solid #ccc;
+}
+#schedule-calendar .wg-calendar-table th {
+	font-size: 14px;
+	opacity: .7;
+}
+#schedule-calendar .wg-calendar-table tr td:first-child {
+	border-left: none;
+}
+#schedule-calendar .wg-calendar-table td {
+	font-size: 15px;
+	padding: 8px 0;
+	vertical-align: top;
+}
+.wg-calendar-date {
+	font-size: 14px;
+	line-height: 16px;
+	text-align: center;
+}
+.wg-calendar-icons {
+	min-height: 24px;
+	text-align: center;
+}
+.wg-calendar-icons .sort-label {
+	display: inline-block;
+	font-size: 12px;
+	width: 3em;
+	margin: 4px 0 0;
+	padding: 0;
+	border-radius: 2px;
+	text-shadow: none;
+}
+.wg-calendar-today .wg-calendar-date {
+	color: #fff;
+	position: relative;
+	z-index: 1;
+}
+.wg-calendar-today .wg-calendar-date:before {
+	content: "";
+	position: absolute;
+	top: -5px;
+	left: 50%;
+	margin-left: -12px;
+	height: 24px;
+	width: 24px;
+	background-color: #444;
+	border-radius: 50%;
+	z-index: -1;
+}
+
+/* 地区リストメニュー */
+
+
+
+
+/* ----------------------------------------
+
+	マップページ
+
+---------------------------------------- */
+
+/* マーカーリストボタン */
+.open-marker-popup {
+	color: #444;
+	position: absolute;
+	right: 8px;
+	top: 8px;
+	padding: 12px;
+	background-color: #fff;
+	border-radius: 50%;
+	z-index: 1000;
+	cursor: pointer;
+}
+
+/* マップ */
+#google-map {
+	width: 100%;
+	height: 100%;
+}
+
+#marker-popup {
+	width: 90%;
+	max-width: 400px;
+	background-color: #fff;
+	border-radius: 2px;
+}
+#marker-popup .md-body {
+	max-height: 400px;
+}
+
+/* InfoWindow */
+.iw-title {
+	margin: 4px 0;
+}
+.iw-address {
+	font-size: 85%;
+}
+.iw-tel {
+	color: #35f;
+	font-size: 85%;
+	text-decoration: none;
+}
+.iw-tel .material-icons {
+	font-size: 120%;
+	padding-right: 4px;
+}
+.iw-description {
+	margin: 4px 0;
+	font-size: 85%;
+}
+.iw-links {
+	list-style: none;
+	margin: 4px 0 0;
+	padding: 0;
+}
+.iw-links a {
+	color: #35f;
+	font-size: 85%;
+	text-decoration: none;
+}
+

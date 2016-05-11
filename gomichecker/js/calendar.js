@@ -29,7 +29,7 @@
 	function setSchedules(queries) {
 		var schedules = {};
 		$.each(queries, function(key, query) {
-			schedules[key] = utility.DateMatcher.new();
+			schedules[key] = new utility.DateMatcher();
 			schedules[key].loadQuery(query);
 		});
 		
@@ -68,8 +68,8 @@
 	// jQuery ready
 	$(function() {
 		// 変数をセット
-		calendar = widget.Calendar.new('#schedule-calendar');
-		areaMenu = widget.Menu.new('#area-menu');
+		calendar = new widget.Calendar('#schedule-calendar');
+		areaMenu = new widget.Menu('#area-menu');
 		$areaList = $('#area-list');
 
 		// データの読み込み
